@@ -1,0 +1,384 @@
+{
+    "how": {
+        "title": "Comment ça marche",
+        "subtitle": "Fabriqué à la demande, expédié par un partenaire près de chez vous.",
+        "steps": [
+            {
+                "title": "1 · Choisissez",
+                "text": "Choisissez un design, puis taille et coloris. L'estimation de livraison pour votre pays est visible sur chaque fiche produit."
+            },
+            {
+                "title": "2 · Commandez",
+                "text": "Payez en toute sécurité. Votre commande est transmise automatiquement au partenaire d'impression le plus proche de chez vous."
+            },
+            {
+                "title": "3 · Nous imprimons",
+                "text": "Votre article est imprimé, brodé ou sublimé à la demande puis contrôlé avant emballage."
+            },
+            {
+                "title": "4 · Ça part",
+                "text": "Vous recevez un lien de suivi par e-mail. La plupart des commandes arrivent en 1 à 2 semaines dans le monde."
+            }
+        ],
+        "partners_title": "Nos partenaires d'impression",
+        "partners_text": "Nous travaillons avec les principaux réseaux print-on-demand pour fabriquer votre commande près de chez vous.",
+        "providers": {
+            "printful": "Vêtements, totes, casquettes et coques avec DTG premium, broderie et centres en Amérique, Europe et Asie.",
+            "printify": "Un réseau d'imprimeurs sélectionnés pour mugs, gourdes, tapis de bureau et carnets.",
+            "gelato": "Production locale dans plus de 30 pays pour affiches, toiles et coussins — moins de transport, moins de CO₂.",
+            "gooten": "Articles spécifiques comme porte-clés acryliques et casquettes brodées via un réseau mondial."
+        },
+        "table": {
+            "title": "Délais de production par produit",
+            "product": "Produit",
+            "production": "Production",
+            "method": "Technique",
+            "note": "La production démarre dès le paiement. Le délai de livraison s'y ajoute (voir Livraison & retours).",
+            "rows": [
+                {
+                    "product": "T-shirts",
+                    "days": "2–5 jours",
+                    "method": "Impression directe sur textile"
+                },
+                {
+                    "product": "Hoodies",
+                    "days": "3–6 jours",
+                    "method": "Impression directe sur textile"
+                },
+                {
+                    "product": "Mugs & gourdes",
+                    "days": "2–5 jours",
+                    "method": "Sublimation"
+                },
+                {
+                    "product": "Affiches & toiles",
+                    "days": "3–7 jours",
+                    "method": "Jet d'encre pigmentaire / latex"
+                },
+                {
+                    "product": "Casquettes & porte-clés",
+                    "days": "3–6 jours",
+                    "method": "Broderie / impression UV"
+                }
+            ]
+        },
+        "why_title": "Pourquoi le print-on-demand ?",
+        "why": [
+            {
+                "title": "Zéro surstock",
+                "text": "Nous ne fabriquons que ce qui est commandé : rien ne finit à la décharge."
+            },
+            {
+                "title": "Fabriqué près de vous",
+                "text": "Des partenaires régionaux réduisent la distance et les délais."
+            },
+            {
+                "title": "Plus de designs, équitablement",
+                "text": "Les créateurs gagnent sur chaque vente sans coût de stock initial."
+            }
+        ],
+        "cta_title": "Prêt à trouver votre design ?",
+        "cta_text": "Parcourez tout le catalogue — de nouveaux designs coréens chaque mois."
+    },
+    "studio": {
+        "title": "Studio sur-mesure",
+        "subtitle": "Apportez votre création — nous l'imprimons sur plus de 14 produits.",
+        "how_title": "Comment fonctionne une commande sur-mesure",
+        "how": [
+            {
+                "title": "Racontez-nous votre idée",
+                "text": "Partagez votre création ou une référence et les produits souhaités."
+            },
+            {
+                "title": "Nous préparons des maquettes",
+                "text": "Sous 48 h vous recevez des aperçus réalistes et un prix."
+            },
+            {
+                "title": "Validez & commandez",
+                "text": "Payez via un lien privé. Nous imprimons et expédions — sans minimum."
+            }
+        ],
+        "specs_title": "Consignes de fichiers",
+        "col_product": "Produit",
+        "col_area": "Zone d'impression",
+        "col_format": "Format",
+        "specs": [
+            {
+                "product": "T-shirt / hoodie",
+                "area": "30 × 40 cm devant",
+                "format": "PNG transparent, 150 dpi+"
+            },
+            {
+                "product": "Mug",
+                "area": "21,5 × 9 cm pourtour",
+                "format": "PNG / PDF, 300 dpi"
+            },
+            {
+                "product": "Affiche / toile",
+                "area": "Fond perdu + 3 mm",
+                "format": "PDF / TIFF, 300 dpi"
+            },
+            {
+                "product": "Tote bag",
+                "area": "30 × 30 cm",
+                "format": "PNG transparent"
+            },
+            {
+                "product": "Stickers",
+                "area": "Contour de découpe",
+                "format": "PNG / SVG vectoriel"
+            }
+        ],
+        "tip": "Utilisez uniquement des œuvres dont vous détenez les droits. Nous ne pouvons pas imprimer de personnages ou logos protégés.",
+        "form_title": "Demander un devis sur-mesure",
+        "product": "Produit",
+        "products": [
+            "T-shirt",
+            "Hoodie",
+            "Mug",
+            "Tote bag",
+            "Affiche / toile",
+            "Coque",
+            "Stickers",
+            "Autre"
+        ],
+        "link": "Lien vers votre création (Drive, Dropbox, Behance…)",
+        "idea": "Votre idée",
+        "idea_placeholder": "Quantité, couleurs, délai, tout ce qui aide…",
+        "send": "Envoyer la demande"
+    },
+    "creators": {
+        "title": "Créateurs",
+        "subtitle": "Découvrez les artistes derrière nos designs.",
+        "story_eyebrow": "Notre histoire",
+        "story_title": "Né à Seongsu, imprimé partout.",
+        "story_text": "Daebak (대박) signifie « génial » — ce que l'on dit quand quelque chose nous surprend de la meilleure façon. Nous avons commencé par imprimer les illustrations d'amis sur des t-shirts. Aujourd'hui nous collaborons avec des artistes indépendants et des réseaux d'impression du monde entier pour rendre le design d'inspiration coréenne facile à porter et à posséder.",
+        "list_title": "Créateurs à l'honneur",
+        "sample_note": "Profils fictifs affichés pour la démonstration.",
+        "list": [
+            {
+                "name": "Haneul Park",
+                "style": "Illustration folk",
+                "bio": "Redessine tigres et grues minhwa d'un trait moderne et joueur.",
+                "city": "Séoul"
+            },
+            {
+                "name": "Mina Laurent",
+                "style": "Typographie",
+                "bio": "Artiste lettrage franco-coréenne qui explore le hangeul comme forme graphique.",
+                "city": "Paris"
+            },
+            {
+                "name": "Jay Kim",
+                "style": "Néon & pixel",
+                "bio": "Designer à Brooklyn transformant les nuits de Séoul en pixel art.",
+                "city": "New York"
+            },
+            {
+                "name": "Soyeon Choi",
+                "style": "Motifs & bojagi",
+                "bio": "Artiste textile qui coud les couleurs du hanbok en motifs modernes.",
+                "city": "Busan"
+            },
+            {
+                "name": "Eun Ji",
+                "style": "Personnages kawaii",
+                "bio": "Dessine les petits personnages des épiceries coréennes.",
+                "city": "Jeju"
+            },
+            {
+                "name": "Chloe Martin",
+                "style": "Art botanique",
+                "bio": "Peint prunier, cerisier et mugunghwa à l'aquarelle.",
+                "city": "Montréal"
+            }
+        ],
+        "apply_title": "Devenez créateur Daebak",
+        "apply_text": "Nous ajoutons de nouveaux designs chaque mois et reversons une redevance sur chaque vente. Parlez-nous de votre travail.",
+        "portfolio": "Lien de votre portfolio",
+        "about_you": "À propos de vous & de votre style",
+        "send": "Envoyer ma candidature"
+    },
+    "faq": {
+        "title": "Questions fréquentes",
+        "subtitle": "Réponses rapides sur commandes, impression et livraison.",
+        "search": "Rechercher dans la FAQ…",
+        "more_title": "Besoin d'aide ?",
+        "more_text": "Notre assistant répond instantanément, notre équipe sous un jour ouvré.",
+        "chat": "Discuter avec nous",
+        "items": [
+            {
+                "q": "Que signifie « print-on-demand » ?",
+                "a": "Votre article n'est imprimé qu'après votre commande, par un partenaire proche de chez vous. Pas de surstock, mais un délai un peu plus long qu'un article en stock."
+            },
+            {
+                "q": "Quel est le délai de livraison ?",
+                "a": "La production prend 2 à 7 jours ouvrés, puis la livraison 2 à 14 jours selon le pays. Consultez l'estimation sur chaque fiche produit."
+            },
+            {
+                "q": "Puis-je suivre ma commande ?",
+                "a": "Oui. Utilisez la page Suivre ma commande avec votre numéro et votre e-mail. Vous recevez aussi un lien de suivi à l'expédition."
+            },
+            {
+                "q": "Quelle est votre politique de retour ?",
+                "a": "Les articles étant fabriqués pour vous, nous n'acceptons pas les retours pour erreur de taille. Les articles défectueux ou abîmés sont réimprimés ou remboursés sous 30 jours — envoyez-nous une photo."
+            },
+            {
+                "q": "Quelle taille choisir ?",
+                "a": "Utilisez le guide des tailles sur les pages vêtements. Nos t-shirts et hoodies sont unisexes et amples — prenez une taille en dessous pour un ajustement plus près du corps."
+            },
+            {
+                "q": "Quels moyens de paiement acceptez-vous ?",
+                "a": "Cartes bancaires (Visa, Mastercard, Amex), Apple Pay, Google Pay et PayPal. Tous les paiements sont chiffrés."
+            },
+            {
+                "q": "Devrai-je payer des taxes d'importation ?",
+                "a": "Les commandes vers l'UE et le Royaume-Uni sont livrées droits payés si possible. Ailleurs, des droits locaux peuvent s'appliquer à la charge de l'acheteur."
+            },
+            {
+                "q": "Puis-je commander un design personnalisé ?",
+                "a": "Oui — rendez-vous dans le Studio sur-mesure, envoyez votre création et nous répondons sous 48 h avec maquettes et devis."
+            },
+            {
+                "q": "Puis-je modifier ou annuler ma commande ?",
+                "a": "Contactez-nous dans les 12 heures suivant la commande. Une fois la production lancée, aucune modification n'est possible."
+            },
+            {
+                "q": "Les couleurs à l'écran sont-elles fidèles ?",
+                "a": "Nous utilisons des maquettes officielles et des profils calibrés, mais les écrans varient. De légères différences de teinte sont possibles, surtout sur les vêtements foncés."
+            }
+        ]
+    },
+    "shipping": {
+        "title": "Livraison & retours",
+        "subtitle": "Délais, coûts et garantie de réimpression en toute transparence.",
+        "table_title": "Livraison estimée par pays",
+        "transit": "Délai de livraison",
+        "cost": "Frais de port",
+        "free_from": "Offerte dès",
+        "note": "Les délais courent après la production. Les zones éloignées peuvent être plus longues.",
+        "sections": [
+            {
+                "title": "Production",
+                "text": "Chaque article est fabriqué sur commande. La production prend 2 à 7 jours ouvrés selon le produit. Les commandes multiples peuvent être expédiées en plusieurs colis."
+            },
+            {
+                "title": "Retours & réimpressions",
+                "text": "Les articles défectueux, abîmés ou mal imprimés sont réimprimés ou remboursés sous 30 jours après livraison. Envoyez-nous votre numéro de commande et une photo."
+            },
+            {
+                "title": "Colis perdu ou en retard",
+                "text": "Si le suivi n'avance plus depuis 10 jours, contactez-nous : nous ouvrirons une enquête auprès du transporteur ou réexpédierons votre commande."
+            },
+            {
+                "title": "Douanes & taxes",
+                "text": "Les droits et taxes d'importation dépendent de votre pays et ne sont pas inclus sauf mention au paiement."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Nous contacter",
+        "subtitle": "Une question sur une commande, un design ou une collaboration ? Réponse sous un jour ouvré.",
+        "form_title": "Envoyez-nous un message",
+        "subject": "Sujet",
+        "subjects": [
+            "Question sur une commande",
+            "Produit ou taille",
+            "Collaboration",
+            "Presse",
+            "Autre"
+        ],
+        "subject_default": "Contact via le site",
+        "message": "Message",
+        "send": "Envoyer le message",
+        "sent": "Message envoyé. Nous vous répondrons très vite.",
+        "phone": "Téléphone",
+        "studio": "Studio",
+        "hours_title": "Horaires",
+        "hours": "Lun–Ven · 9h–18h (heure de Séoul)",
+        "fast_title": "Besoin d'une réponse immédiate ?",
+        "fast_text": "Notre assistant est disponible 24 h/24 et peut passer le relais à notre équipe."
+    },
+    "legal": {
+        "updated": "Dernière mise à jour : :date",
+        "template_notice": "Ce texte est un modèle de départ. Faites-le valider par un juriste pour votre juridiction avant la mise en ligne.",
+        "terms": {
+            "title": "Conditions générales de vente",
+            "intro": "Ces conditions régissent les achats effectués sur :brand, exploité par :legal.",
+            "sections": [
+                {
+                    "title": "Commandes",
+                    "text": "En passant commande, vous confirmez être majeur et que les informations fournies sont exactes. La commande est confirmée à réception du paiement."
+                },
+                {
+                    "title": "Prix & paiement",
+                    "text": "Les prix sont en USD sauf mention contraire et incluent les taxes applicables si requis. Les autres devises sont indicatives."
+                },
+                {
+                    "title": "Produits à la demande",
+                    "text": "Les articles sont produits après votre commande par des partenaires d'impression tiers. Les délais sont des estimations."
+                },
+                {
+                    "title": "Livraison",
+                    "text": "Les frais et délais de livraison sont indiqués au paiement et sur la page Livraison & retours."
+                },
+                {
+                    "title": "Retours & réimpressions",
+                    "text": "Les produits étant personnalisés par impression, les retours pour changement d'avis ne sont pas acceptés. Les articles défectueux ou abîmés sont réimprimés ou remboursés sous 30 jours."
+                },
+                {
+                    "title": "Propriété intellectuelle",
+                    "text": "Tous les designs sont protégés. Toute reproduction sans autorisation est interdite."
+                },
+                {
+                    "title": "Contact",
+                    "text": "Questions sur ces conditions : :email."
+                }
+            ]
+        },
+        "privacy": {
+            "title": "Politique de confidentialité",
+            "intro": ":brand respecte votre vie privée. Cette politique explique ce que nous collectons et pourquoi.",
+            "sections": [
+                {
+                    "title": "Données collectées",
+                    "text": "Nom, e-mail, adresse de livraison et détails de commande nécessaires à votre achat, ainsi que des données techniques (langue, panier) stockées dans des cookies."
+                },
+                {
+                    "title": "Utilisation",
+                    "text": "Pour traiter les commandes, envoyer des e-mails transactionnels, assurer le support et améliorer la boutique. Nous ne vendons jamais vos données."
+                },
+                {
+                    "title": "Partage avec nos partenaires",
+                    "text": "Votre nom et votre adresse sont transmis à nos partenaires d'impression et de livraison uniquement pour produire et livrer votre commande."
+                },
+                {
+                    "title": "Vos droits",
+                    "text": "Vous pouvez demander l'accès, la rectification ou la suppression de vos données à :email."
+                },
+                {
+                    "title": "Cookies",
+                    "text": "Nous utilisons des cookies essentiels (session, langue, panier) et le stockage local pour votre thème et vos favoris."
+                }
+            ]
+        },
+        "notice": {
+            "title": "Mentions légales",
+            "intro": "Informations sur l'éditeur de ce site.",
+            "sections": [
+                {
+                    "title": "Éditeur",
+                    "text": ":legal — :address. Contact : :email."
+                },
+                {
+                    "title": "Hébergement",
+                    "text": "Coordonnées de l'hébergeur à compléter avant la mise en ligne."
+                },
+                {
+                    "title": "Partenaires d'impression",
+                    "text": "Les produits sont fabriqués par des partenaires print-on-demand indépendants."
+                }
+            ]
+        }
+    }
+}

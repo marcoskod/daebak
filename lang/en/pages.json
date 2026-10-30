@@ -1,0 +1,384 @@
+{
+    "how": {
+        "title": "How it works",
+        "subtitle": "Made on demand, shipped from a partner near you.",
+        "steps": [
+            {
+                "title": "1 · Choose",
+                "text": "Pick a design, then your size and color. Preview the delivery estimate for your country on every product page."
+            },
+            {
+                "title": "2 · Order",
+                "text": "Pay securely. Your order is sent automatically to the print partner closest to your address."
+            },
+            {
+                "title": "3 · We print",
+                "text": "Your item is printed, embroidered or sublimated on demand and quality-checked before packing."
+            },
+            {
+                "title": "4 · It ships",
+                "text": "You get a tracking link by email. Most orders arrive within 1–2 weeks worldwide."
+            }
+        ],
+        "partners_title": "Our print partners",
+        "partners_text": "We work with leading print-on-demand networks so your order is made close to home.",
+        "providers": {
+            "printful": "Apparel, totes, caps and phone cases with premium DTG, embroidery and fulfillment centers in the US, EU, Mexico and Asia.",
+            "printify": "A network of vetted print providers for mugs, tumblers, desk mats and notebooks.",
+            "gelato": "Local production in 30+ countries for posters, canvases and cushions — less shipping, less CO₂.",
+            "gooten": "Specialty items such as acrylic keychains and embroidered caps from a global supplier network."
+        },
+        "table": {
+            "title": "Production times by product",
+            "product": "Product",
+            "production": "Production",
+            "method": "Method",
+            "note": "Production starts right after payment. Shipping time is added (see Shipping & returns).",
+            "rows": [
+                {
+                    "product": "T-shirts",
+                    "days": "2–5 days",
+                    "method": "Direct-to-garment print"
+                },
+                {
+                    "product": "Hoodies",
+                    "days": "3–6 days",
+                    "method": "Direct-to-garment print"
+                },
+                {
+                    "product": "Mugs & tumblers",
+                    "days": "2–5 days",
+                    "method": "Dye sublimation"
+                },
+                {
+                    "product": "Posters & canvases",
+                    "days": "3–7 days",
+                    "method": "Pigment / latex inkjet"
+                },
+                {
+                    "product": "Caps & keychains",
+                    "days": "3–6 days",
+                    "method": "Embroidery / UV print"
+                }
+            ]
+        },
+        "why_title": "Why print on demand?",
+        "why": [
+            {
+                "title": "No overstock",
+                "text": "We only make what is ordered, so nothing ends up in landfill."
+            },
+            {
+                "title": "Made near you",
+                "text": "Regional partners cut shipping distance and delivery time."
+            },
+            {
+                "title": "More designs, fairly",
+                "text": "Creators earn on every sale without upfront inventory costs."
+            }
+        ],
+        "cta_title": "Ready to find your design?",
+        "cta_text": "Browse the full catalogue — new Korean-inspired drops every month."
+    },
+    "studio": {
+        "title": "Custom studio",
+        "subtitle": "Bring your own artwork — we print it on 14+ products.",
+        "how_title": "How a custom order works",
+        "how": [
+            {
+                "title": "Tell us your idea",
+                "text": "Share your artwork or a reference and the products you want."
+            },
+            {
+                "title": "We prepare mockups",
+                "text": "Within 48 hours you receive realistic previews and a price."
+            },
+            {
+                "title": "Approve & order",
+                "text": "Pay a private checkout link. We print and ship — no minimum."
+            }
+        ],
+        "specs_title": "Artwork guidelines",
+        "col_product": "Product",
+        "col_area": "Print area",
+        "col_format": "Format",
+        "specs": [
+            {
+                "product": "T-shirt / hoodie",
+                "area": "12 × 16 in front",
+                "format": "PNG, transparent, 150 dpi+"
+            },
+            {
+                "product": "Mug",
+                "area": "8.5 × 3.5 in wrap",
+                "format": "PNG / PDF, 300 dpi"
+            },
+            {
+                "product": "Poster / canvas",
+                "area": "Full bleed + 0.125 in",
+                "format": "PDF / TIFF, 300 dpi"
+            },
+            {
+                "product": "Tote bag",
+                "area": "12 × 12 in",
+                "format": "PNG, transparent"
+            },
+            {
+                "product": "Stickers",
+                "area": "Die-cut outline",
+                "format": "PNG / SVG vector"
+            }
+        ],
+        "tip": "Only upload artwork you own or have permission to use. We cannot print trademarked characters or logos.",
+        "form_title": "Request a custom quote",
+        "product": "Product",
+        "products": [
+            "T-shirt",
+            "Hoodie",
+            "Mug",
+            "Tote bag",
+            "Poster / canvas",
+            "Phone case",
+            "Stickers",
+            "Other"
+        ],
+        "link": "Link to your artwork (Drive, Dropbox, Behance…)",
+        "idea": "Your idea",
+        "idea_placeholder": "Quantity, colors, deadline, anything that helps…",
+        "send": "Send request"
+    },
+    "creators": {
+        "title": "Creators",
+        "subtitle": "Meet the artists behind our designs.",
+        "story_eyebrow": "Our story",
+        "story_title": "Born in Seongsu, printed everywhere.",
+        "story_text": "Daebak (대박) means “awesome” — what you say when something surprises you in the best way. We started by printing friends’ illustrations on tees. Today we partner with independent artists and print networks worldwide to make Korean-inspired design easy to wear and own.",
+        "list_title": "Featured creators",
+        "sample_note": "Sample profiles shown for the demo.",
+        "list": [
+            {
+                "name": "Haneul Park",
+                "style": "Folk-art illustration",
+                "bio": "Redraws minhwa tigers and cranes with a playful, modern line.",
+                "city": "Seoul"
+            },
+            {
+                "name": "Mina Laurent",
+                "style": "Typography",
+                "bio": "Franco-Korean lettering artist exploring hangul as graphic form.",
+                "city": "Paris"
+            },
+            {
+                "name": "Jay Kim",
+                "style": "Neon & pixel",
+                "bio": "Brooklyn-based designer turning Seoul night streets into pixel art.",
+                "city": "New York"
+            },
+            {
+                "name": "Soyeon Choi",
+                "style": "Patterns & bojagi",
+                "bio": "Textile artist stitching hanbok colors into modern patterns.",
+                "city": "Busan"
+            },
+            {
+                "name": "Eun Ji",
+                "style": "Kawaii characters",
+                "bio": "Draws the snack-sized friends of Korean convenience stores.",
+                "city": "Jeju"
+            },
+            {
+                "name": "Chloe Martin",
+                "style": "Botanical art",
+                "bio": "Paints plum, cherry and mugunghwa blossoms in watercolor.",
+                "city": "Montréal"
+            }
+        ],
+        "apply_title": "Become a Daebak creator",
+        "apply_text": "We add new designs every month and share a royalty on each sale. Tell us about your work.",
+        "portfolio": "Portfolio link",
+        "about_you": "About you & your style",
+        "send": "Send application"
+    },
+    "faq": {
+        "title": "Frequently asked questions",
+        "subtitle": "Quick answers about orders, printing and delivery.",
+        "search": "Search the FAQ…",
+        "more_title": "Still need help?",
+        "more_text": "Our assistant answers instantly, and our team replies within one business day.",
+        "chat": "Chat with us",
+        "items": [
+            {
+                "q": "What does “print on demand” mean?",
+                "a": "Your item is printed only after you order it, by a partner near you. That means no overstock and slightly longer lead time than ready-made items."
+            },
+            {
+                "q": "How long does delivery take?",
+                "a": "Production takes 2–7 business days, then shipping takes 2–14 days depending on the country. Check the estimate on each product page."
+            },
+            {
+                "q": "Can I track my order?",
+                "a": "Yes. Use the Track order page with your order number and email. You also receive a tracking link once it ships."
+            },
+            {
+                "q": "What is your return policy?",
+                "a": "Because items are made for you, we do not accept returns for wrong size. Defective or damaged items are reprinted or refunded within 30 days — just send a photo."
+            },
+            {
+                "q": "Which sizes should I choose?",
+                "a": "Use the size guide on apparel pages. Our tees and hoodies are unisex and relaxed — size down if you prefer a closer fit."
+            },
+            {
+                "q": "Which payment methods do you accept?",
+                "a": "Credit and debit cards (Visa, Mastercard, Amex), Apple Pay, Google Pay and PayPal. All payments are encrypted."
+            },
+            {
+                "q": "Will I pay customs or import taxes?",
+                "a": "Orders to the EU and UK are shipped duty-paid when possible. Elsewhere, local customs may apply and are the buyer’s responsibility."
+            },
+            {
+                "q": "Can I order a custom design?",
+                "a": "Yes — visit the Custom studio, send your artwork and we will reply within 48 hours with mockups and a quote."
+            },
+            {
+                "q": "Can I change or cancel my order?",
+                "a": "Contact us within 12 hours of ordering. Once production has started, changes are no longer possible."
+            },
+            {
+                "q": "Are the colors on screen accurate?",
+                "a": "We use official mockups and calibrated profiles, but screens vary. Expect small differences in tone, especially on dark garments."
+            }
+        ]
+    },
+    "shipping": {
+        "title": "Shipping & returns",
+        "subtitle": "Transparent delivery times, costs and our reprint guarantee.",
+        "table_title": "Estimated delivery by country",
+        "transit": "Shipping time",
+        "cost": "Shipping cost",
+        "free_from": "Free from",
+        "note": "Delivery times start after production. Remote areas may take longer.",
+        "sections": [
+            {
+                "title": "Production",
+                "text": "Every item is made to order. Production takes 2–7 business days depending on the product. Multi-item orders may ship in several parcels."
+            },
+            {
+                "title": "Returns & reprints",
+                "text": "Defective, damaged or misprinted items are reprinted or refunded within 30 days of delivery. Send us your order number and a photo."
+            },
+            {
+                "title": "Lost or delayed parcels",
+                "text": "If tracking has not moved for 10 days, contact us and we will open an investigation with the carrier or reship your order."
+            },
+            {
+                "title": "Customs & duties",
+                "text": "Import duties and taxes depend on your country and are not included unless shown at checkout."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact us",
+        "subtitle": "Questions about an order, a design or a collaboration? We answer within one business day.",
+        "form_title": "Send us a message",
+        "subject": "Subject",
+        "subjects": [
+            "Order question",
+            "Product or sizing",
+            "Collaboration",
+            "Press",
+            "Other"
+        ],
+        "subject_default": "Website contact",
+        "message": "Message",
+        "send": "Send message",
+        "sent": "Message sent. We will reply very soon.",
+        "phone": "Phone",
+        "studio": "Studio",
+        "hours_title": "Hours",
+        "hours": "Mon–Fri · 9:00–18:00 KST",
+        "fast_title": "Need an instant answer?",
+        "fast_text": "Our assistant is available 24/7 and can hand over to our team."
+    },
+    "legal": {
+        "updated": "Last updated: :date",
+        "template_notice": "This text is a starting template. Have it reviewed by a legal professional for your jurisdiction before going live.",
+        "terms": {
+            "title": "Terms of sale",
+            "intro": "These terms govern purchases made on :brand, operated by :legal.",
+            "sections": [
+                {
+                    "title": "Orders",
+                    "text": "By placing an order you confirm that you are of legal age and that the information provided is accurate. An order is confirmed once payment is received."
+                },
+                {
+                    "title": "Prices & payment",
+                    "text": "Prices are in USD unless stated otherwise and include applicable taxes where required. Other currencies are shown for information only."
+                },
+                {
+                    "title": "Made-to-order products",
+                    "text": "Items are produced after your order by third-party print partners. Production and shipping times are estimates."
+                },
+                {
+                    "title": "Shipping",
+                    "text": "Shipping costs and estimated times are shown at checkout and on the Shipping & returns page."
+                },
+                {
+                    "title": "Returns & reprints",
+                    "text": "Because products are personalized by printing, we do not accept change-of-mind returns. Defective or damaged items are reprinted or refunded within 30 days."
+                },
+                {
+                    "title": "Intellectual property",
+                    "text": "All designs are protected. Reproduction without permission is prohibited."
+                },
+                {
+                    "title": "Contact",
+                    "text": "Questions about these terms: :email."
+                }
+            ]
+        },
+        "privacy": {
+            "title": "Privacy policy",
+            "intro": ":brand respects your privacy. This policy explains what we collect and why.",
+            "sections": [
+                {
+                    "title": "Data we collect",
+                    "text": "Name, email, shipping address and order details needed to fulfil your purchase, plus technical data such as language and cart contents stored in cookies."
+                },
+                {
+                    "title": "How we use it",
+                    "text": "To process orders, send transactional emails, provide support and improve the store. We never sell your data."
+                },
+                {
+                    "title": "Sharing with partners",
+                    "text": "Your name and address are shared with print and shipping partners solely to produce and deliver your order."
+                },
+                {
+                    "title": "Your rights",
+                    "text": "You may request access, correction or deletion of your data at :email."
+                },
+                {
+                    "title": "Cookies",
+                    "text": "We use essential cookies (session, language, cart) and local storage for your theme and wishlist."
+                }
+            ]
+        },
+        "notice": {
+            "title": "Legal notice",
+            "intro": "Information about the publisher of this website.",
+            "sections": [
+                {
+                    "title": "Publisher",
+                    "text": ":legal — :address. Contact: :email."
+                },
+                {
+                    "title": "Hosting",
+                    "text": "Hosting provider details to be completed before launch."
+                },
+                {
+                    "title": "Print partners",
+                    "text": "Products are fulfilled by independent print-on-demand partners."
+                }
+            ]
+        }
+    }
+}

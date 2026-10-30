@@ -1,0 +1,121 @@
+/* ==========================================================================
+   Templates de description produit — partagé Daebak / Be.Bright
+   Variables personnalisables (définies par le thème du site, sinon valeurs par défaut) :
+   --pd-ink, --pd-muted, --pd-accent, --pd-accent-ink, --pd-bg, --pd-card, --pd-soft, --pd-line, --pd-radius
+   ========================================================================== */
+.pd {
+    --_ink: var(--pd-ink, #1a1c1b);
+    --_muted: var(--pd-muted, #504441);
+    --_accent: var(--pd-accent, #442a22);
+    --_accent-ink: var(--pd-accent-ink, #ffffff);
+    --_bg: var(--pd-bg, transparent);
+    --_card: var(--pd-card, #ffffff);
+    --_soft: var(--pd-soft, #f4f3f1);
+    --_line: var(--pd-line, #e3e2e0);
+    --_r: var(--pd-radius, 18px);
+    container-type: inline-size;
+    container-name: pd;
+    color: var(--_ink);
+    line-height: 1.7;
+    font-size: 15px;
+    background: var(--_bg);
+}
+.pd *, .pd *::before, .pd *::after { box-sizing: border-box; }
+.pd-ico { flex: none; vertical-align: -0.2em; }
+.pd-h { margin: 0 0 .6rem; font-size: 1.05rem; line-height: 1.3; font-weight: 700; letter-spacing: -.005em; color: var(--_ink); display: flex; align-items: center; gap: .5rem; }
+.pd-p { margin: 0 0 .85rem; color: var(--_muted); }
+.pd-p:last-child { margin-bottom: 0; }
+.pd strong { color: var(--_ink); font-weight: 650; }
+
+/* Listes à coches */
+.pd-list { list-style: none; margin: 0 0 .85rem; padding: 0; display: grid; gap: .5rem; }
+.pd-list li { display: flex; gap: .6rem; align-items: flex-start; color: var(--_muted); }
+.pd-tick { flex: none; width: 22px; height: 22px; margin-top: 1px; border-radius: 999px; display: inline-grid; place-items: center; background: color-mix(in srgb, var(--_accent) 12%, transparent); color: var(--_accent); }
+
+/* Tableaux de specs */
+.pd-specs { margin: 0 0 .85rem; border: 1px solid var(--_line); border-radius: calc(var(--_r) - 4px); overflow: hidden; background: var(--_card); }
+.pd-specs > div { display: grid; grid-template-columns: minmax(96px, 36%) 1fr; gap: 1rem; padding: .65rem 1rem; border-top: 1px solid var(--_line); }
+.pd-specs > div:first-child { border-top: 0; }
+.pd-specs > div:nth-child(even) { background: var(--_soft); }
+.pd-specs dt { font-weight: 600; color: var(--_ink); font-size: .9em; }
+.pd-specs dd { margin: 0; color: var(--_muted); font-size: .92em; overflow-wrap: anywhere; }
+
+.pd-quote { margin: 1rem 0; padding: 1rem 1.25rem; border-left: 4px solid var(--_accent); background: var(--_soft); border-radius: 0 var(--_r) var(--_r) 0; font-style: italic; color: var(--_ink); }
+
+.pd-intro { margin-bottom: 1.25rem; }
+.pd-section { margin-top: 1.5rem; }
+.pd-section:first-child { margin-top: 0; }
+
+/* --- 1. Classic ------------------------------------------------------------------- */
+.pd--classic .pd-section { padding-top: 1.25rem; border-top: 1px solid var(--_line); }
+.pd--classic .pd-section:first-child, .pd--classic .pd-intro + .pd-section { border-top-color: var(--_line); }
+
+/* --- 2. Editorial ----------------------------------------------------------------- */
+.pd--editorial .pd-lead { font-size: 1.25rem; line-height: 1.6; color: var(--_ink); margin: 0 0 1.5rem; font-weight: 500; }
+.pd-dropcap::first-letter { float: left; font-size: 3.6em; line-height: .85; padding: .08em .12em 0 0; font-weight: 800; color: var(--_accent); }
+.pd--editorial .pd-ed { display: grid; grid-template-columns: 3.2rem 1fr; gap: 1rem; padding-top: 1.5rem; border-top: 1px solid var(--_line); }
+.pd--editorial .pd-ed-num { font-size: 2rem; font-weight: 800; line-height: 1; color: color-mix(in srgb, var(--_accent) 35%, transparent); font-variant-numeric: tabular-nums; }
+.pd--editorial .pd-h { font-size: 1.35rem; margin-bottom: .75rem; }
+@container pd (min-width: 640px) { .pd--editorial .pd-cols { column-count: 2; column-gap: 2rem; } .pd--editorial .pd-cols > * { break-inside: avoid; } }
+
+/* --- 3. Cards --------------------------------------------------------------------- */
+.pd-grid { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+.pd-card { background: var(--_card); border: 1px solid var(--_line); border-radius: var(--_r); padding: 1.25rem; transition: transform .2s, box-shadow .2s; }
+.pd-card:hover { transform: translateY(-3px); box-shadow: 0 14px 30px -18px rgba(0,0,0,.35); }
+.pd-card-ico { width: 44px; height: 44px; border-radius: 14px; display: grid; place-items: center; background: color-mix(in srgb, var(--_accent) 12%, transparent); color: var(--_accent); margin-bottom: .75rem; }
+@container pd (min-width: 520px) { .pd-grid { grid-template-columns: repeat(2, 1fr); } }
+@container pd (min-width: 900px) { .pd-grid { grid-template-columns: repeat(3, 1fr); } }
+
+/* --- 4. Tabs ---------------------------------------------------------------------- */
+.pd-tablist { display: flex; gap: .4rem; overflow-x: auto; padding: .3rem; background: var(--_soft); border-radius: 999px; scrollbar-width: none; margin-bottom: 1.1rem; }
+.pd-tablist::-webkit-scrollbar { display: none; }
+.pd-tab { flex: none; display: inline-flex; align-items: center; gap: .45rem; border: 0; background: transparent; color: var(--_muted); font: inherit; font-weight: 600; font-size: .88rem; padding: .55rem 1rem; border-radius: 999px; cursor: pointer; transition: background .2s, color .2s; white-space: nowrap; }
+.pd-tab:hover { color: var(--_ink); }
+.pd-tab.is-active { background: var(--_accent); color: var(--_accent-ink); }
+.pd-panel { display: none; animation: pd-fade .25s ease; }
+.pd-panel.is-active { display: block; }
+@keyframes pd-fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* --- 5. Accordion ------------------------------------------------------------------ */
+.pd-acc { display: grid; gap: .6rem; }
+.pd-acc-item { background: var(--_card); border: 1px solid var(--_line); border-radius: var(--_r); overflow: hidden; }
+.pd-acc-item summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: .75rem; padding: .95rem 1.1rem; font-weight: 650; }
+.pd-acc-item summary::-webkit-details-marker { display: none; }
+.pd-acc-ico { width: 34px; height: 34px; border-radius: 11px; display: grid; place-items: center; background: color-mix(in srgb, var(--_accent) 12%, transparent); color: var(--_accent); }
+.pd-acc-title { flex: 1; }
+.pd-acc-chev { transition: transform .25s; color: var(--_muted); }
+.pd-acc-item[open] .pd-acc-chev { transform: rotate(180deg); }
+.pd-acc-body { padding: 0 1.1rem 1.1rem; }
+
+/* --- 6. Spec sheet ---------------------------------------------------------------- */
+.pd-sheet { display: grid; gap: 1.5rem; }
+.pd-sheet-side { background: var(--_soft); border-radius: var(--_r); padding: 1.1rem; align-self: start; }
+.pd-sheet-side .pd-specs { margin: 0; }
+@container pd (min-width: 720px) { .pd-sheet { grid-template-columns: 1.15fr 1fr; } }
+
+/* --- 7. Timeline ------------------------------------------------------------------ */
+.pd-timeline { list-style: none; margin: 0; padding: 0; position: relative; }
+.pd-step { display: grid; grid-template-columns: 2.4rem 1fr; gap: 1rem; position: relative; padding-bottom: 1.5rem; }
+.pd-step:last-child { padding-bottom: 0; }
+.pd-step::before { content: ''; position: absolute; left: 1.2rem; top: 2.4rem; bottom: 0; width: 2px; background: repeating-linear-gradient(to bottom, var(--_line) 0 6px, transparent 6px 12px); }
+.pd-step:last-child::before { display: none; }
+.pd-step-dot { width: 2.4rem; height: 2.4rem; border-radius: 999px; background: var(--_accent); color: var(--_accent-ink); display: grid; place-items: center; font-weight: 700; z-index: 1; box-shadow: 0 0 0 5px var(--_bg, transparent); }
+
+/* --- 8. Showcase ------------------------------------------------------------------ */
+.pd-hero { display: flex; gap: 1rem; align-items: flex-start; padding: 1.4rem; border-radius: calc(var(--_r) + 6px); background: linear-gradient(135deg, var(--_accent), color-mix(in srgb, var(--_accent) 65%, #000)); color: var(--_accent-ink); margin-bottom: 1.1rem; }
+.pd-hero p { margin: 0; font-size: 1.15rem; line-height: 1.55; font-weight: 500; }
+.pd-hero strong { color: inherit; }
+.pd-hero-ico { flex: none; width: 48px; height: 48px; border-radius: 16px; background: rgba(255,255,255,.16); display: grid; place-items: center; }
+.pd-bento { display: grid; gap: .9rem; grid-template-columns: 1fr; }
+.pd-tile { border-radius: var(--_r); padding: 1.15rem; background: var(--_soft); border: 1px solid transparent; }
+.pd-tile-head { display: flex; align-items: center; gap: .55rem; margin-bottom: .55rem; color: var(--_accent); }
+.pd-tile-head .pd-h { margin: 0; }
+.pd-tone-1 { background: color-mix(in srgb, var(--_accent) 9%, var(--_card)); }
+.pd-tone-2 { background: var(--_card); border-color: var(--_line); }
+.pd-tone-3 { background: color-mix(in srgb, var(--_accent) 15%, var(--_soft)); }
+.pd-tile .pd-specs { background: transparent; }
+@container pd (min-width: 560px) { .pd-bento { grid-template-columns: repeat(2, 1fr); } .pd-tile--wide { grid-column: 1 / -1; } }
+
+@container pd (max-width: 420px) { .pd-specs > div { grid-template-columns: 1fr; gap: .15rem; } .pd--editorial .pd-ed { grid-template-columns: 1fr; gap: .25rem; } }
+@media (prefers-reduced-motion: reduce) { .pd-card, .pd-panel { transition: none; animation: none; } }
+@media print { .pd-tablist { display: none; } .pd-panel { display: block !important; } }

@@ -1,0 +1,64 @@
+{
+    "lookbook": {
+        "eyebrow": "스트리트 스타일",
+        "title": "서울에서 입다",
+        "text": "후디, 티셔츠, 토트백에 영감을 준 서울 거리의 일상 룩.",
+        "credit": "사진: Unsplash 사진작가의 무료 이용 이미지 —",
+        "items": {
+            "sweat": {
+                "title": "검정 맨투맨, 도심 횡단보도",
+                "cta": "서울의 밤 보기"
+            },
+            "navy": {
+                "title": "네이비 맨투맨 & 스니커즈",
+                "cta": "후디 보기"
+            },
+            "tee": {
+                "title": "시장에서의 흰 티셔츠",
+                "cta": "티셔츠 보기"
+            },
+            "tote": {
+                "title": "서울 골목의 토트백",
+                "cta": "토트백 보기"
+            },
+            "hanbok": {
+                "title": "궁궐 문 앞의 한복 색",
+                "cta": "궁궐 & 한옥 보기"
+            }
+        }
+    },
+    "blog": {
+        "nav": "블로그",
+        "title": "대박 저널",
+        "subtitle": "한국 문화 이야기, 디자인 가이드, 프린트 온 디맨드 비하인드.",
+        "articles_count": "글 :n개",
+        "featured": "추천",
+        "search": "글 검색…",
+        "all": "전체",
+        "read_more": "글 읽기",
+        "min_read": "읽는 시간 :n분",
+        "no_posts": "글을 찾을 수 없어요",
+        "share": "공유",
+        "toc": "이 글의 목차",
+        "shop_eyebrow": "이야기 속 상품",
+        "related_products": "관련 상품",
+        "related_posts": "이어서 읽기",
+        "prev": "이전 글",
+        "next": "다음 글",
+        "newsletter_title": "매달 새로운 이야기",
+        "newsletter_text": "저널을 메일로 받고 첫 주문 10% 할인도 받으세요.",
+        "categories": {
+            "culture": "문화",
+            "guides": "가이드",
+            "creators": "크리에이터",
+            "studio": "비하인드",
+            "news": "소식"
+        },
+        "home": {
+            "eyebrow": "저널에서",
+            "title": "디자인 뒤의 이야기",
+            "text": "문화, 장인정신, 크리에이터 — 입기 전에 읽어보세요.",
+            "cta": "모든 글"
+        }
+    }
+}

@@ -1,0 +1,100 @@
+/* Templates d'articles de blog (hors « classic », qui garde le CSS de daebak.css).
+   Tout est scopé sous .post--{clé} et utilise les variables du thème (clair/sombre). */
+
+.post-toc a:focus-visible, .post-toc-inline summary:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+
+/* --- magazine --------------------------------------------------------------------------- */
+.post--magazine { max-width: 1160px; }
+.post--magazine .post-cover--wide { aspect-ratio: 21 / 9; border-radius: var(--r-xl); box-shadow: var(--shadow-md); }
+.post--magazine .post-head--center { max-width: 820px; margin-inline: auto; text-align: center; justify-items: center; }
+.post--magazine .post-head--center .row { justify-content: center; }
+.post--magazine .post-head h1 { font-size: clamp(32px, 4.6vw, 58px); letter-spacing: -.04em; }
+.post--magazine .post-body--dropcap > .pd-p:first-of-type::first-letter { float: left; font-size: 4.2em; line-height: .85; font-weight: 800; padding: .08em .12em 0 0; color: var(--brand); }
+.post--magazine .post-body h2 { border-top: 2px solid var(--line); padding-top: 18px; }
+
+/* --- sidebar-toc ------------------------------------------------------------------------ */
+.post--sidebar-toc { max-width: 1160px; }
+.post--sidebar-toc .post-layout { grid-template-columns: minmax(0, 1fr) 260px; gap: 40px; }
+.post--sidebar-toc .post-layout:not(:has(.post-toc)) { grid-template-columns: minmax(0, 760px); }
+.post--sidebar-toc .post-main { display: grid; gap: 22px; min-width: 0; }
+.post--sidebar-toc .post-body { max-width: none; }
+.post--sidebar-toc .post-toc--rail { position: sticky; top: calc(var(--gap) + 8px); background: var(--soft); border: 0; box-shadow: none; border-left: 3px solid var(--brand); border-radius: 0 var(--r) var(--r) 0; max-height: calc(100vh - 2 * var(--gap)); overflow-y: auto; }
+.post--sidebar-toc .post-toc--rail nav { counter-reset: toc; }
+.post--sidebar-toc .post-toc--rail a { counter-increment: toc; display: flex; gap: 8px; }
+.post--sidebar-toc .post-toc--rail a::before { content: counter(toc, decimal-leading-zero); color: var(--accent); font-weight: 800; font-variant-numeric: tabular-nums; }
+.post--sidebar-toc .post-toc--rail a:hover { background: var(--card); }
+@media (max-width: 1100px) { .post--sidebar-toc .post-layout { grid-template-columns: 1fr; } .post--sidebar-toc .post-toc--rail { position: static; order: -1; max-height: none; } }
+
+/* --- centered-minimal ------------------------------------------------------------------- */
+.post--minimal { max-width: 720px; }
+.post--minimal .post-head--center { max-width: none; text-align: center; justify-items: center; }
+.post--minimal .post-head--center .row { justify-content: center; }
+.post--minimal .post-head h1 { font-size: clamp(28px, 3.4vw, 40px); }
+.post--minimal .post-layout, .post--minimal .post-layout:not(:has(.post-toc)) { grid-template-columns: minmax(0, 1fr); }
+.post--minimal .post-body { max-width: none; font-size: 18px; }
+.post-toc-inline { padding: 4px 18px; font-size: 14px; }
+.post-toc-inline summary { cursor: pointer; font-weight: 800; padding: 12px 0; min-height: 44px; display: flex; align-items: center; }
+.post-toc-inline nav { display: grid; gap: 2px; padding-bottom: 12px; }
+.post-toc-inline a { padding: 8px 10px; border-radius: 10px; color: var(--muted); font-weight: 600; }
+.post-toc-inline a:hover { background: var(--soft); color: var(--brand); }
+
+/* --- hero-overlay ----------------------------------------------------------------------- */
+.post-hero { position: relative; overflow: hidden; isolation: isolate; border-radius: var(--r-xl); min-height: clamp(320px, 46vw, 520px); display: flex; align-items: flex-end; background: #2c160e; }
+.post-hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.post-hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(20, 10, 6, .15) 0%, rgba(20, 10, 6, .86) 100%); }
+.post-head--overlay { max-width: 820px; padding: clamp(20px, 4vw, 40px); color: #fff; }
+.post-head--overlay h1, .post-head--overlay b, .post-head--overlay .post-lead { color: #fff; }
+.post-head--overlay .post-lead { opacity: .92; }
+.post-head--overlay .muted, .post-head--overlay .bcard-meta > span { color: #f3e4dc; }
+.post-head--overlay .btn-ghost { color: #fff; border-color: rgba(255, 255, 255, .6); background: rgba(255, 255, 255, .1); }
+.post-head--overlay .btn-ghost:hover { background: rgba(255, 255, 255, .22); }
+.post-head--overlay :focus-visible { outline-color: #fff; }
+
+/* --- split ------------------------------------------------------------------------------ */
+.post--split { max-width: 1160px; }
+.post-split { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(22px, 4vw, 48px); align-items: start; }
+.post-split-media { position: sticky; top: var(--gap); }
+.post-split-media .post-cover { aspect-ratio: 4 / 5; box-shadow: var(--shadow-md); }
+.post-split-text { display: grid; gap: 22px; min-width: 0; }
+.post--split .post-body { max-width: none; }
+.post--split .post-toc--flat { position: static; }
+@media (max-width: 900px) { .post-split { grid-template-columns: 1fr; } .post-split-media { position: static; } .post-split-media .post-cover { aspect-ratio: 16 / 9; } }
+
+/* --- sections numérotées / cartes / timeline (markup commun .post-sec) ------------------ */
+.post-sec { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px 20px; margin-top: 28px; }
+.post-sec-n { font-weight: 800; letter-spacing: -.04em; line-height: 1; color: var(--accent); font-variant-numeric: tabular-nums; }
+.post-sec-in { min-width: 0; }
+.post-sec h2 { margin-top: 0 !important; }
+.post-body > .post-sec:first-child { margin-top: 12px; }
+
+.post--numbered .post-sec { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 36px; }
+.post--numbered .post-sec-n { font-size: clamp(44px, 6vw, 76px); color: var(--blush-ink); opacity: .5; min-width: 1.5ch; }
+:root[data-theme="dark"] .post--numbered .post-sec-n { color: var(--brand); opacity: .55; }
+
+.post--cards .post-sec { display: block; position: relative; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-sm); padding: clamp(18px, 3vw, 30px); margin-top: 18px; }
+.post--cards .post-sec-n { position: absolute; top: 14px; right: 18px; font-size: 14px; letter-spacing: .08em; background: var(--blush); color: var(--brand); padding: 5px 10px; border-radius: 999px; }
+.post--cards .post-sec h2 { font-size: 22px; padding-right: 52px; }
+.post--cards .post-sec .pd-p:last-child, .post--cards .post-sec .pd-list:last-child { margin-bottom: 0; }
+
+.post--timeline .post-body { position: relative; }
+.post--timeline .post-sec { position: relative; padding-left: 52px; display: block; margin-top: 0; padding-bottom: 12px; }
+.post--timeline .post-sec::before { content: ""; position: absolute; left: 17px; top: 36px; bottom: -8px; width: 2px; background: var(--line); }
+.post--timeline .post-sec:last-of-type::before { display: none; }
+.post--timeline .post-sec-n { position: absolute; left: 0; top: 30px; width: 36px; height: 36px; display: grid; place-items: center; font-size: 13px; letter-spacing: 0; border-radius: 50%; background: var(--brand-solid); color: var(--on-brand); box-shadow: 0 0 0 5px var(--bg); }
+.post--timeline .post-sec h2 { margin-top: 30px !important; }
+
+/* --- gallery-showcase ------------------------------------------------------------------- */
+.post--showcase { max-width: 1160px; }
+.post--showcase .post-cover--tall { aspect-ratio: 16 / 9; max-height: 640px; border-radius: var(--r-xl); box-shadow: var(--shadow-lg); }
+.post--showcase .post-head--center { max-width: 820px; margin-inline: auto; text-align: center; justify-items: center; }
+.post--showcase .post-head--center .row { justify-content: center; }
+.post-showcase-products { background: var(--blush); border-radius: var(--r-xl); padding: clamp(18px, 3vw, 36px); display: grid; gap: 18px; }
+.post-showcase-products .eyebrow { color: var(--brand); }
+.post-showcase-products .sec-head { margin: 0; }
+.post--showcase .post-layout:not(:has(.post-toc)) { grid-template-columns: minmax(0, 720px); }
+
+@media (max-width: 680px) {
+    .post--magazine .post-cover--wide { aspect-ratio: 16 / 9; }
+    .post--timeline .post-sec { padding-left: 46px; }
+    .post--numbered .post-sec { grid-template-columns: 1fr; }
+}

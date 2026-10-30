@@ -1,0 +1,14 @@
+{
+    "blog_templates": {
+        "classic": { "name": "Classique", "desc": "Couverture sous le titre, sommaire sur le côté." },
+        "magazine": { "name": "Magazine", "desc": "Couverture pleine largeur et lettrine." },
+        "sidebar-toc": { "name": "Sommaire collant", "desc": "Colonne de sommaire qui suit la lecture." },
+        "centered-minimal": { "name": "Minimal", "desc": "Colonne étroite centrée, sans couverture." },
+        "hero-overlay": { "name": "Titre sur image", "desc": "Titre superposé à la couverture." },
+        "split": { "name": "Scindé", "desc": "Couverture à gauche, texte à droite." },
+        "longform-numbered": { "name": "Sections numérotées", "desc": "Grands numéros pour les longs formats." },
+        "cards": { "name": "Cartes", "desc": "Chaque section dans sa carte." },
+        "timeline": { "name": "Fil du temps", "desc": "Sections le long d'un fil vertical." },
+        "gallery-showcase": { "name": "Vitrine", "desc": "Grande couverture, produits liés en avant." }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "mail": {
+        "hello": "Bonjour :name,",
+        "order_subject": "Commande confirmée — :brand #:number",
+        "order_thanks": "Merci pour votre commande :number chez :brand !",
+        "order_total": "Total",
+        "order_paid": "Votre paiement a bien été reçu.",
+        "order_next": "Vos articles sont en cours de fabrication à la demande. Vous recevrez un lien de suivi à l'expédition.",
+        "order_ship_to": "Livraison à",
+        "order_track": "Suivre ma commande",
+        "signoff": "À bientôt,",
+        "team": "L'équipe :brand",
+        "admin_order_subject": "Nouvelle commande :number — :total",
+        "admin_order_title": "Nouvelle commande reçue",
+        "customer": "Client",
+        "provider": "Fournisseur",
+        "contact_subject": "Nous avons bien reçu votre message — :brand",
+        "contact_thanks": "Merci de nous avoir contactés. Nous répondons sous un jour ouvré.",
+        "contact_copy": "Votre message :",
+        "admin_contact_subject": "Nouveau message : :subject"
+    }
+}

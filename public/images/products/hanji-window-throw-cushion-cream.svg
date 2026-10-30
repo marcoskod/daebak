@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img">
+  <defs>
+    <radialGradient id="p81-bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#f6e6e0"/><stop offset="1" stop-color="#e2d4ce"/></radialGradient>
+    <filter id="p81-blur" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="12"/></filter>
+    <linearGradient id="p81-sh" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset=".28" stop-color="#fff" stop-opacity=".12"/><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".26"/></linearGradient>
+    <linearGradient id="p81-sv" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#p81-bg)"/>
+  <circle cx="650" cy="150" r="170" fill="#fff" opacity=".22"/><circle cx="120" cy="690" r="120" fill="#fff" opacity=".16"/>
+  <ellipse cx="400" cy="722" rx="250" ry="22" fill="#000" opacity=".16" filter="url(#p81-blur)"/>
+  <g>
+  <path d="M170 200Q400 140 630 200Q668 400 630 600Q400 660 170 600Q132 400 170 200Z" fill="#f3ead8"/><path d="M170 200Q400 140 630 200Q668 400 630 600Q400 660 170 600Q132 400 170 200Z" fill="url(#p81-sh)"/><path d="M170 200Q400 140 630 200Q668 400 630 600Q400 660 170 600Q132 400 170 200Z" fill="url(#p81-sv)"/>
+  <path d="M170 200Q400 140 630 200Q668 400 630 600Q400 660 170 600Q132 400 170 200Z" fill="none" stroke="#c2bbad" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M184 232Q400 176 616 232" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="5"/>
+  <g fill="#c2bbad" opacity=".5"><circle cx="400" cy="402" r="6"/></g>
+  <g transform='translate(234,236) scale(1.65)'><g>
+  <rect x="20" y="20" width="160" height="160" rx="6" fill="#faf6ef" stroke="#2a1d18" stroke-width="6"/>
+  <path d='M30 30V170M30 30H170' stroke='#2a1d18' stroke-width='2'/><path d='M53.3 30V170M30 53.3H170' stroke='#2a1d18' stroke-width='2'/><path d='M76.6 30V170M30 76.6H170' stroke='#2a1d18' stroke-width='2'/><path d='M99.9 30V170M30 99.9H170' stroke='#2a1d18' stroke-width='2'/><path d='M123.2 30V170M30 123.2H170' stroke='#2a1d18' stroke-width='2'/><path d='M146.5 30V170M30 146.5H170' stroke='#2a1d18' stroke-width='2'/><path d='M169.8 30V170M30 169.8H170' stroke='#2a1d18' stroke-width='2'/>
+  <rect x="20" y="20" width="160" height="160" rx="6" fill="none" stroke="#2a1d18" stroke-width="6"/>
+  <circle cx="100" cy="100" r="34" fill="#faf6ef" stroke="#2a1d18" stroke-width="3"/>
+  <g transform='translate(100,100)'><circle cx='0' cy='-18.72' r='14.88' fill='#cd2e3a' stroke='#2a1d18' stroke-width='1.4'/><circle cx='17.8' cy='-5.78' r='14.88' fill='#cd2e3a' stroke='#2a1d18' stroke-width='1.4'/><circle cx='11' cy='15.14' r='14.88' fill='#cd2e3a' stroke='#2a1d18' stroke-width='1.4'/><circle cx='-11' cy='15.14' r='14.88' fill='#cd2e3a' stroke='#2a1d18' stroke-width='1.4'/><circle cx='-17.8' cy='-5.78' r='14.88' fill='#cd2e3a' stroke='#2a1d18' stroke-width='1.4'/><circle r='7.2' fill='#f2b632'/><circle cx='7.05' cy='-9.71' r='1.2' fill='#2a1d18'/><circle cx='11.41' cy='3.71' r='1.2' fill='#2a1d18'/><circle cx='0' cy='12' r='1.2' fill='#2a1d18'/><circle cx='-11.41' cy='3.71' r='1.2' fill='#2a1d18'/><circle cx='-7.05' cy='-9.71' r='1.2' fill='#2a1d18'/></g>
+  <g fill="#cd2e3a"><circle cx="40" cy="40" r="4"/><circle cx="160" cy="40" r="4"/><circle cx="40" cy="160" r="4"/><circle cx="160" cy="160" r="4"/></g>
+</g></g>
+</g>
+</svg>

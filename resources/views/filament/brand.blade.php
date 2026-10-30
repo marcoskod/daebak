@@ -1,0 +1,1 @@
+<span class="dbk-brand"><img src="{{ asset(config('site.brand.logo_mark')) }}" alt="" width="36" height="36"><span>{{ config('site.brand.name') }}<small>{{ config('site.brand.native_name') }} · Admin</small></span></span>

@@ -1,0 +1,302 @@
+{
+    "home": {
+        "meta_title": "Korean-inspired tees, hoodies & art — printed on demand",
+        "hero": {
+            "eyebrow": "Print on demand · Seoul × the world",
+            "title": "Wear <em>Korea’s</em> best-kept designs.",
+            "text": "Tees, hoodies, mugs and art prints featuring hangul, hanok patterns and Seoul nights — made only after you order.",
+            "search": "Try “tiger”, “hangul”, “mug”…",
+            "badge": "Made on demand — zero overstock",
+            "cta": "Shop the collection"
+        },
+        "categories": {
+            "title": "Shop by category",
+            "sale": "On sale",
+            "sale_hint": "Limited",
+            "new": "New in",
+            "new_hint": "This month"
+        },
+        "trending": {
+            "eyebrow": "Trending now",
+            "title": "Customer favorites",
+            "text": "The designs everyone is adding to their cart this month."
+        },
+        "collections": {
+            "eyebrow": "Collections",
+            "title": "Explore by story",
+            "text": "Six universes, each rooted in a piece of Korean culture."
+        },
+        "how": {
+            "eyebrow": "How it works",
+            "title": "From click to doorstep in 4 steps",
+            "text": "Nothing is printed until you order — so every piece is fresh and made just for you.",
+            "link": "Full details",
+            "pick": {
+                "title": "Pick a design",
+                "text": "Choose your product, color and size."
+            },
+            "design": {
+                "title": "We confirm",
+                "text": "Your order goes straight to our print partner."
+            },
+            "print": {
+                "title": "Printed for you",
+                "text": "Made in 2–5 business days near your region."
+            },
+            "ship": {
+                "title": "Shipped to you",
+                "text": "Tracked delivery to over 40 countries."
+            }
+        },
+        "stats": {
+            "products": "Designs in the shop",
+            "countries": "Countries delivered",
+            "reviews": "Happy reviews",
+            "production": "Average production"
+        },
+        "new": {
+            "eyebrow": "Just dropped",
+            "title": "New arrivals"
+        },
+        "studio": {
+            "eyebrow": "Custom studio",
+            "title": "Your art, our printers.",
+            "text": "Send us your illustration or idea and we will turn it into tees, mugs, totes and prints — no minimum order.",
+            "cta": "Start a custom order",
+            "cta2": "Become a creator"
+        },
+        "reviews": {
+            "eyebrow": "Loved worldwide",
+            "title": "What customers say"
+        },
+        "newsletter": {
+            "title": "Get 10% off your first order",
+            "text": "New drops, creator stories and a welcome code. No spam, ever.",
+            "placeholder": "Your email",
+            "button": "Subscribe",
+            "thanks": "Welcome aboard! Check your inbox soon."
+        }
+    },
+    "collections": {
+        "title": "Collections",
+        "subtitle": "Six universes inspired by Korean culture.",
+        "by_type": "Shop by product type",
+        "by_type_text": "Find exactly what you want to wear, sip from or hang.",
+        "hangul": {
+            "tag": "Typography",
+            "title": "Hangul & Words",
+            "text": "Love, luck and learning in Korea’s beautiful alphabet."
+        },
+        "palace": {
+            "tag": "Heritage",
+            "title": "Palace & Hanok",
+            "text": "Dancheong colors, lattice windows and royal screens."
+        },
+        "folk": {
+            "tag": "Folk art",
+            "title": "Minhwa & Myths",
+            "text": "Tigers, cranes, guardians and mischievous goblins."
+        },
+        "seoul": {
+            "tag": "Urban",
+            "title": "Seoul After Dark",
+            "text": "Neon streets, Namsan skyline and Han River sunsets."
+        },
+        "kawaii": {
+            "tag": "Cute",
+            "title": "Snack Club",
+            "text": "Kimchi friends, banana milk and other happy foods."
+        },
+        "blossom": {
+            "tag": "Nature",
+            "title": "Blossom Season",
+            "text": "Plum, cherry, mugunghwa and Jeju sunshine."
+        }
+    },
+    "shop": {
+        "title": "Shop all",
+        "subtitle": "Every design is printed on demand after you order.",
+        "results": "results",
+        "sort": "Sort by",
+        "sort_popular": "Most popular",
+        "sort_newest": "Newest",
+        "sort_rating": "Top rated",
+        "sort_price_asc": "Price: low to high",
+        "sort_price_desc": "Price: high to low",
+        "apply": "Apply",
+        "all": "All",
+        "items_count": ":n items",
+        "no_results_title": "Nothing matches yet",
+        "no_results_text": "Try another keyword or clear the filters.",
+        "reset_filters": "Reset filters"
+    },
+    "product": {
+        "badge": {
+            "bestseller": "Bestseller",
+            "new": "New",
+            "limited": "Limited",
+            "sale": "Sale"
+        },
+        "add_wishlist": "Save to wishlist",
+        "choose_options": "Choose options",
+        "add_to_cart": "Add to cart",
+        "colors": "Available colors",
+        "ships_in": "Made in :a–:b days",
+        "from": "From",
+        "view_image": "View image :n",
+        "description": "About this design",
+        "template": "Layout",
+        "reviews": "Reviews",
+        "reviews_count": ":n reviews",
+        "verified": "Verified purchase",
+        "sample_reviews": "Demo reviews shown for illustration.",
+        "fulfilled_by": "Made by :name",
+        "share": "Share",
+        "charged_usd": "You will be charged :amount (USD).",
+        "color": "Color",
+        "size": "Size",
+        "size_guide": "Size guide",
+        "buy_now": "Buy now",
+        "delivery_estimate": "Delivery estimate",
+        "eta_production": "Production",
+        "eta_shipping": "Shipping",
+        "eta_total": "Total",
+        "shipping_cost": "Shipping",
+        "free_over": "free over :amount",
+        "trust_pod": "Printed on demand",
+        "trust_eco": "Less waste, no overstock",
+        "trust_secure": "Secure checkout",
+        "trust_returns": "Free reprint if defective",
+        "related": "You may also like"
+    },
+    "cart": {
+        "title": "Your cart",
+        "subtitle": "Review your designs before checkout.",
+        "empty_title": "Your cart is empty",
+        "empty_text": "Discover designs you will love.",
+        "continue": "Continue shopping",
+        "remove": "Remove",
+        "quantity": "Quantity",
+        "summary": "Order summary",
+        "free_left": "Add :amount more for free shipping",
+        "free_reached": "You unlocked free shipping!",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "calculated_at_checkout": "Calculated at checkout",
+        "total": "Total",
+        "checkout": "Checkout",
+        "out_of_stock": "This item is currently unavailable.",
+        "added": ":name added to your cart."
+    },
+    "checkout": {
+        "title": "Checkout",
+        "subtitle": "Almost there — a few details and it is yours.",
+        "secure": "Secure checkout",
+        "contact": "Contact",
+        "name": "Full name",
+        "email": "Email",
+        "phone": "Phone (optional)",
+        "shipping": "Shipping address",
+        "country": "Country",
+        "address": "Address",
+        "city": "City",
+        "postal": "Postal code",
+        "notes": "Delivery notes (optional)",
+        "payment": "Payment",
+        "pay": {
+            "card": "Credit / debit card",
+            "card_hint": "Visa, Mastercard, Amex, Apple Pay, Google Pay",
+            "paypal": "PayPal",
+            "paypal_hint": "Pay with your PayPal balance or bank"
+        },
+        "no_payment": "No payment method is available right now. Please contact us.",
+        "demo_notice": "Demo mode: no real payment is taken and no card data is requested.",
+        "accept": "I accept the :terms.",
+        "charged_usd": "Prices are shown in your currency for reference; you are charged in USD.",
+        "pay_now": "Place order"
+    },
+    "order": {
+        "status": {
+            "pending": "Order received",
+            "processing": "In production",
+            "shipped": "Shipped",
+            "delivered": "Delivered",
+            "cancelled": "Cancelled"
+        },
+        "payment": {
+            "pending": "Awaiting payment",
+            "paid": "Paid",
+            "failed": "Failed"
+        }
+    },
+    "confirm": {
+        "title": "Order confirmed",
+        "subtitle": "Thank you for supporting Korean-inspired design.",
+        "thanks": "Thank you, :name!",
+        "number": "Order number",
+        "email_sent": "a confirmation was sent to :email",
+        "item": "Item",
+        "details": "Order details",
+        "status": "Payment status"
+    },
+    "tracking": {
+        "title": "Track your order",
+        "subtitle": "Enter your order number and email.",
+        "not_found": "No order found with these details.",
+        "another": "Track another order",
+        "number": "Order number",
+        "button": "Track"
+    },
+    "demo": {
+        "title": "Payment (demo)",
+        "subtitle": "Simulated payment page",
+        "badge": "Demo mode",
+        "order": "Order",
+        "text": "This is a simulation. Click below to mark the order as paid — no card is charged.",
+        "confirm": "Simulate successful payment",
+        "cancel": "Cancel"
+    },
+    "wishlist": {
+        "title": "Your wishlist",
+        "subtitle": "Saved on this device.",
+        "empty_title": "Nothing saved yet",
+        "empty_text": "Tap the heart on any design to keep it here."
+    },
+    "size_guide": {
+        "title": "Size guide",
+        "text": "Unisex fits. Measure a tee you love and compare.",
+        "size": "Size",
+        "chest": "Chest",
+        "length": "Length",
+        "tip": "Between two sizes? Size up for a relaxed look, size down for a closer fit.",
+        "apparel": "T-shirts & hoodies",
+        "other_title": "Other products",
+        "dimensions": "Dimensions",
+        "other": [
+            {
+                "product": "Mug",
+                "dims": "11 oz — 3.7 in tall × 3.2 in wide"
+            },
+            {
+                "product": "Tumbler",
+                "dims": "20 oz — 8.3 in tall"
+            },
+            {
+                "product": "Poster / Canvas",
+                "dims": "12×16, 18×24, 24×36 in"
+            },
+            {
+                "product": "Tote bag",
+                "dims": "15 × 16 in"
+            },
+            {
+                "product": "Desk mat",
+                "dims": "31.5 × 15.7 in (80 × 40 cm)"
+            },
+            {
+                "product": "Cushion",
+                "dims": "18 × 18 in"
+            }
+        ]
+    }
+}

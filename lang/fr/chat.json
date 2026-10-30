@@ -1,0 +1,117 @@
+{
+    "chat": {
+        "open": "Ouvrir le chat",
+        "title": "Chat support client",
+        "close": "Fermer le chat",
+        "sub_ai": "Assistant IA · répond instantanément",
+        "sub_human": "Notre équipe · réponse sous un jour",
+        "mode_ai": "Assistant IA",
+        "mode_human": "Parler à un humain",
+        "handoff_title": "Laissez vos coordonnées",
+        "handoff_text": "Notre équipe vous répondra ici dans le chat et par e-mail.",
+        "name": "Votre nom",
+        "email": "Votre e-mail",
+        "handoff_button": "Discuter avec l'équipe",
+        "placeholder": "Écrivez votre message…",
+        "send": "Envoyer",
+        "greeting": "Salut ! Je suis Dae 👋 Posez-moi vos questions sur les produits, tailles, livraison ou votre commande.",
+        "handoff_ok": "Merci ! Vous discutez maintenant avec notre équipe. Nous répondons au plus vite — vous pouvez continuer votre navigation.",
+        "quick": [
+            "Délais de livraison",
+            "Suivre ma commande",
+            "Aide taille",
+            "Design sur-mesure"
+        ],
+        "found": "Voici ce que j'ai trouvé pour vous :",
+        "fallback": "Je ne suis pas sûr d'avoir compris. Essayez « livraison », « retours », « tailles » ou un nom de produit — ou passez en « Parler à un humain ».",
+        "system_prompt": "Tu es :agent, l'assistant sympathique de :brand, boutique print-on-demand de vêtements, mugs, art mural et accessoires d'inspiration coréenne. Réponds brièvement (4 phrases max) dans la langue du client. Faits : articles imprimés après commande (production 2-7 jours ouvrés), livraison 2-14 jours selon le pays, livraison offerte dès :threshold, articles défectueux réimprimés ou remboursés sous 30 jours, pas de retour pour erreur de taille, paiement carte/PayPal, suivi sur /track-order, sur-mesure sur /studio. Recommande des produits du catalogue avec leur lien /produit/slug. Si tu ne peux pas aider ou si le client veut une personne, invite-le à appuyer sur « Parler à un humain ». N'invente jamais de politique, prix ou stock.",
+        "intents": [
+            {
+                "keywords": [
+                    "livraison",
+                    "délai",
+                    "expédi",
+                    "combien de temps"
+                ],
+                "answer": "La production prend 2 à 7 jours ouvrés, puis la livraison environ 2 à 14 jours selon le pays (Corée 2–4, États-Unis 4–8, Europe 4–8). Livraison offerte dès 75 $. Voir /shipping-returns"
+            },
+            {
+                "keywords": [
+                    "retour",
+                    "rembours",
+                    "échange",
+                    "défectu"
+                ],
+                "answer": "Les articles sont fabriqués pour vous : pas de retour pour erreur de taille. Si un article est défectueux ou abîmé, envoyez votre numéro de commande et une photo sous 30 jours : nous réimprimons ou remboursons. Détails : /shipping-returns"
+            },
+            {
+                "keywords": [
+                    "suivi",
+                    "suivre",
+                    "ma commande",
+                    "colis"
+                ],
+                "answer": "Suivez votre commande sur /track-order avec votre numéro et votre e-mail. Vous recevez aussi un lien de suivi à l'expédition."
+            },
+            {
+                "keywords": [
+                    "taille",
+                    "coupe",
+                    "trop grand",
+                    "mesure"
+                ],
+                "answer": "Nos t-shirts et hoodies sont unisexes et amples. Consultez /size-guide — prenez une taille en dessous pour un ajustement plus près du corps."
+            },
+            {
+                "keywords": [
+                    "paiement",
+                    "carte",
+                    "paypal",
+                    "payer"
+                ],
+                "answer": "Nous acceptons Visa, Mastercard, Amex, Apple Pay, Google Pay et PayPal. Tous les paiements sont chiffrés."
+            },
+            {
+                "keywords": [
+                    "sur-mesure",
+                    "personnalis",
+                    "ma création",
+                    "mon logo"
+                ],
+                "answer": "Oui ! Envoyez votre création sur /studio : nous répondons sous 48 h avec maquettes et devis. Sans minimum de commande."
+            },
+            {
+                "keywords": [
+                    "réduction",
+                    "promo",
+                    "code",
+                    "soldes"
+                ],
+                "answer": "Inscrivez-vous à la newsletter en bas de la page d'accueil pour -10 % sur votre première commande, et consultez l'onglet Promos."
+            },
+            {
+                "keywords": [
+                    "humain",
+                    "conseiller",
+                    "quelqu'un",
+                    "équipe"
+                ],
+                "answer": "Bien sûr — appuyez sur « Parler à un humain » en haut, laissez votre nom et e-mail, et notre équipe répondra ici."
+            },
+            {
+                "keywords": [
+                    "merci",
+                    "super"
+                ],
+                "answer": "Avec plaisir ! Puis-je vous aider pour autre chose ?"
+            },
+            {
+                "keywords": [
+                    "bonjour",
+                    "coucou"
+                ],
+                "answer": "Bonjour ! 👋 Posez-moi vos questions sur les produits, tailles, livraison ou votre commande."
+            }
+        ]
+    }
+}

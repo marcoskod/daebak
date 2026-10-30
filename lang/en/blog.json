@@ -1,0 +1,64 @@
+{
+    "lookbook": {
+        "eyebrow": "Street style",
+        "title": "Worn in Seoul",
+        "text": "Everyday looks from Seoul streets that inspired our hoodies, tees and totes.",
+        "credit": "Photos: free-to-use images, courtesy of Unsplash photographers —",
+        "items": {
+            "sweat": {
+                "title": "Black crewnecks, city crossing",
+                "cta": "Shop Seoul After Dark"
+            },
+            "navy": {
+                "title": "Navy sweatshirt & sneakers",
+                "cta": "Shop hoodies"
+            },
+            "tee": {
+                "title": "White tee, market-stall afternoon",
+                "cta": "Shop tees"
+            },
+            "tote": {
+                "title": "Tote bag in a Seoul alley",
+                "cta": "Shop totes"
+            },
+            "hanbok": {
+                "title": "Hanbok colors at the palace gate",
+                "cta": "Shop Palace & Hanok"
+            }
+        }
+    },
+    "blog": {
+        "nav": "Blog",
+        "title": "The Daebak Journal",
+        "subtitle": "Stories on Korean culture, design guides and behind-the-scenes of print on demand.",
+        "articles_count": ":n articles",
+        "featured": "Featured",
+        "search": "Search articles…",
+        "all": "All",
+        "read_more": "Read article",
+        "min_read": ":n min read",
+        "no_posts": "No article found",
+        "share": "Share",
+        "toc": "In this article",
+        "shop_eyebrow": "Shop the story",
+        "related_products": "Products mentioned",
+        "related_posts": "Keep reading",
+        "prev": "Previous",
+        "next": "Next",
+        "newsletter_title": "New stories, once a month",
+        "newsletter_text": "Get the Journal in your inbox plus 10% off your first order.",
+        "categories": {
+            "culture": "Culture",
+            "guides": "Guides",
+            "creators": "Creators",
+            "studio": "Behind the scenes",
+            "news": "News"
+        },
+        "home": {
+            "eyebrow": "From the journal",
+            "title": "Stories behind the designs",
+            "text": "Culture, craft and creators — read before you wear.",
+            "cta": "All articles"
+        }
+    }
+}

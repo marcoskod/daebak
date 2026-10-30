@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img">
+  <defs>
+    <radialGradient id="p12-bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#e8efe6"/><stop offset="1" stop-color="#d5dcd4"/></radialGradient>
+    <filter id="p12-blur" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="12"/></filter>
+    <linearGradient id="p12-sh" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset=".28" stop-color="#fff" stop-opacity=".12"/><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".26"/></linearGradient>
+    <linearGradient id="p12-sv" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#p12-bg)"/>
+  <circle cx="650" cy="150" r="170" fill="#fff" opacity=".22"/><circle cx="120" cy="690" r="120" fill="#fff" opacity=".16"/>
+  <ellipse cx="400" cy="722" rx="250" ry="22" fill="#000" opacity=".16" filter="url(#p12-blur)"/>
+  <g>
+  <path d="M268 150L345 118Q400 186 455 118L532 150L648 252L580 334L536 296V646Q400 668 264 646V296L220 334L152 252Z" fill="#a9b8a0"/>
+  <path d="M268 150L345 118Q400 186 455 118L532 150L648 252L580 334L536 296V646Q400 668 264 646V296L220 334L152 252Z" fill="url(#p12-sh)"/><path d="M268 150L345 118Q400 186 455 118L532 150L648 252L580 334L536 296V646Q400 668 264 646V296L220 334L152 252Z" fill="url(#p12-sv)"/>
+  <path d="M345 118Q400 186 455 118Q400 160 345 118z" fill="#8b9783"/>
+  <path d="M350 126Q400 182 450 126" fill="none" stroke="#8b9783" stroke-width="9" stroke-linecap="round"/>
+  <path d="M268 150L220 334M532 150L580 334" stroke="#8b9783" stroke-width="2" opacity=".55" fill="none"/>
+  <path d="M264 628Q400 650 536 628" fill="none" stroke="#8b9783" stroke-width="2" opacity=".6"/>
+  <path d="M300 450c20 40 10 120 4 170M510 410c-18 50-6 150 4 214" stroke="#000" stroke-opacity=".06" stroke-width="14" fill="none"/>
+  <g transform='translate(276,200) scale(1.24)'><g transform="translate(100,100)">
+  <circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(0)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(22.5)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(45)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(67.5)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(90)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(112.5)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(135)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(157.5)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(180)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(202.5)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(225)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(247.5)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(270)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(292.5)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(315)'/><circle cx='0' cy='-90' r='3' fill='#2a1d18' transform='rotate(337.5)'/><ellipse cx='0' cy='-52' rx='15' ry='30' fill='#cd2e3a' stroke='#2a1d18' stroke-width='2' transform='rotate(0)'/><ellipse cx='0' cy='-52' rx='15' ry='30' fill='#0047a0' stroke='#2a1d18' stroke-width='2' transform='rotate(45)'/><ellipse cx='0' cy='-52' rx='15' ry='30' fill='#f2b632' stroke='#2a1d18' stroke-width='2' transform='rotate(90)'/><ellipse cx='0' cy='-52' rx='15' ry='30' fill='#2f7d5b' stroke='#2a1d18' stroke-width='2' transform='rotate(135)'/><ellipse cx='0' cy='-52' rx='15' ry='30' fill='#cd2e3a' stroke='#2a1d18' stroke-width='2' transform='rotate(180)'/><ellipse cx='0' cy='-52' rx='15' ry='30' fill='#0047a0' stroke='#2a1d18' stroke-width='2' transform='rotate(225)'/><ellipse cx='0' cy='-52' rx='15' ry='30' fill='#f2b632' stroke='#2a1d18' stroke-width='2' transform='rotate(270)'/><ellipse cx='0' cy='-52' rx='15' ry='30' fill='#2f7d5b' stroke='#2a1d18' stroke-width='2' transform='rotate(315)'/>
+  <circle r="34" fill="#f2b632" stroke="#2a1d18" stroke-width="2.5"/>
+  <circle r="24" fill="#cd2e3a" stroke="#2a1d18" stroke-width="2"/>
+  <circle r="14" fill="#faf6ef" stroke="#2a1d18" stroke-width="2"/>
+  <circle r="6" fill="#0047a0"/>
+</g></g>
+</g>
+</svg>

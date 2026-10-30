@@ -1,0 +1,64 @@
+{
+    "lookbook": {
+        "eyebrow": "Street style",
+        "title": "Porté à Séoul",
+        "text": "Des looks du quotidien dans les rues de Séoul qui ont inspiré nos hoodies, t-shirts et totes.",
+        "credit": "Photos : images libres de droit, avec l\\x27aimable autorisation des photographes Unsplash —",
+        "items": {
+            "sweat": {
+                "title": "Sweats noirs, traversée urbaine",
+                "cta": "Voir Séoul la nuit"
+            },
+            "navy": {
+                "title": "Sweat marine & baskets",
+                "cta": "Voir les hoodies"
+            },
+            "tee": {
+                "title": "T-shirt blanc, après-midi au marché",
+                "cta": "Voir les t-shirts"
+            },
+            "tote": {
+                "title": "Tote bag dans une ruelle de Séoul",
+                "cta": "Voir les totes"
+            },
+            "hanbok": {
+                "title": "Couleurs du hanbok à la porte du palais",
+                "cta": "Voir Palais & Hanok"
+            }
+        }
+    },
+    "blog": {
+        "nav": "Blog",
+        "title": "Le Journal Daebak",
+        "subtitle": "Histoires de culture coréenne, guides de design et coulisses du print-on-demand.",
+        "articles_count": ":n articles",
+        "featured": "À la une",
+        "search": "Rechercher un article…",
+        "all": "Tous",
+        "read_more": "Lire l'article",
+        "min_read": ":n min de lecture",
+        "no_posts": "Aucun article trouvé",
+        "share": "Partager",
+        "toc": "Dans cet article",
+        "shop_eyebrow": "Shopper l'histoire",
+        "related_products": "Produits mentionnés",
+        "related_posts": "À lire aussi",
+        "prev": "Précédent",
+        "next": "Suivant",
+        "newsletter_title": "De nouvelles histoires, une fois par mois",
+        "newsletter_text": "Recevez le Journal par e-mail et -10 % sur votre première commande.",
+        "categories": {
+            "culture": "Culture",
+            "guides": "Guides",
+            "creators": "Créateurs",
+            "studio": "Coulisses",
+            "news": "Actualités"
+        },
+        "home": {
+            "eyebrow": "Depuis le journal",
+            "title": "Les histoires derrière les designs",
+            "text": "Culture, savoir-faire et créateurs — à lire avant de porter.",
+            "cta": "Tous les articles"
+        }
+    }
+}

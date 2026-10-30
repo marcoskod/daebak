@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img">
+  <defs>
+    <radialGradient id="p240-bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#f1e9df"/><stop offset="1" stop-color="#ded6cd"/></radialGradient>
+    <filter id="p240-blur" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="12"/></filter>
+    <linearGradient id="p240-sh" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset=".28" stop-color="#fff" stop-opacity=".12"/><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".26"/></linearGradient>
+    <linearGradient id="p240-sv" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#p240-bg)"/>
+  <circle cx="650" cy="150" r="170" fill="#fff" opacity=".22"/><circle cx="120" cy="690" r="120" fill="#fff" opacity=".16"/>
+  <ellipse cx="400" cy="722" rx="250" ry="22" fill="#000" opacity=".16" filter="url(#p240-blur)"/>
+  <g>
+  <path d="M322 170C316 78 484 78 478 170L478 210L322 210Z" fill="#bc9d96"/>
+  <path d="M300 190C330 176 352 168 366 168H434C448 168 470 176 500 190L568 222L648 524L588 540L548 372V654Q400 682 252 654V372L212 540L152 524L232 222Z" fill="#f1c9c0"/>
+  <path d="M300 190C330 176 352 168 366 168H434C448 168 470 176 500 190L568 222L648 524L588 540L548 372V654Q400 682 252 654V372L212 540L152 524L232 222Z" fill="url(#p240-sh)"/><path d="M300 190C330 176 352 168 366 168H434C448 168 470 176 500 190L568 222L648 524L588 540L548 372V654Q400 682 252 654V372L212 540L152 524L232 222Z" fill="url(#p240-sv)"/>
+  <path d="M336 168C344 232 456 232 464 168C446 150 354 150 336 168z" fill="#bc9d96"/>
+  <path d="M318 176C338 262 462 262 482 176" fill="none" stroke="#bc9d96" stroke-width="10" stroke-linecap="round"/>
+  <path d="M372 230L368 316M428 230L432 316" stroke="#f1ebe0" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="368" cy="320" r="5" fill="#f1ebe0"/><circle cx="432" cy="320" r="5" fill="#f1ebe0"/>
+  <path d="M290 534H510L540 640Q400 664 260 640Z" fill="#f1c9c0" stroke="#bc9d96" stroke-width="3"/><path d="M290 534H510L540 640Q400 664 260 640Z" fill="url(#p240-sv)"/>
+  <path d="M252 636Q400 664 548 636V656Q400 684 252 656Z" fill="#bc9d96" opacity=".5"/>
+  <path d="M152 524L212 540M588 540L648 524" stroke="#bc9d96" stroke-width="12"/>
+  <path d="M232 222L212 540M568 222L588 540" stroke="#bc9d96" stroke-width="2" opacity=".5" fill="none"/>
+  <g transform='translate(296,236) scale(1.04)'><g font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif" text-anchor="middle">
+  <text x="100" y="108" font-size="64" font-weight="900" fill="#2a1d18" letter-spacing="-2">가나다</text>
+  <rect x="48" y="122" width="104" height="5" rx="2.5" fill="#cd2e3a"/>
+  <text x="100" y="152" font-size="15" font-weight="700" letter-spacing="7" fill="#2a1d18">GA NA DA</text>
+  <path d="M100 176c-12-9-20-15-20-23a10 10 0 0 1 20-3 10 10 0 0 1 20 3c0 8-8 14-20 23z" fill="#cd2e3a" transform="translate(20,38) scale(.8)" opacity=".95"/>
+</g></g>
+</g>
+</svg>

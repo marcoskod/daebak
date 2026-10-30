@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img">
+  <defs>
+    <radialGradient id="choodies-bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#e8efe6"/><stop offset="1" stop-color="#d5dcd4"/></radialGradient>
+    <filter id="choodies-blur" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="12"/></filter>
+    <linearGradient id="choodies-sh" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset=".28" stop-color="#fff" stop-opacity=".12"/><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".26"/></linearGradient>
+    <linearGradient id="choodies-sv" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#choodies-bg)"/>
+  <circle cx="650" cy="150" r="170" fill="#fff" opacity=".22"/><circle cx="120" cy="690" r="120" fill="#fff" opacity=".16"/>
+  <ellipse cx="400" cy="722" rx="250" ry="22" fill="#000" opacity=".16" filter="url(#choodies-blur)"/>
+  <g>
+  <path d="M322 170C316 78 484 78 478 170L478 210L322 210Z" fill="#1d3327"/>
+  <path d="M300 190C330 176 352 168 366 168H434C448 168 470 176 500 190L568 222L648 524L588 540L548 372V654Q400 682 252 654V372L212 540L152 524L232 222Z" fill="#254232"/>
+  <path d="M300 190C330 176 352 168 366 168H434C448 168 470 176 500 190L568 222L648 524L588 540L548 372V654Q400 682 252 654V372L212 540L152 524L232 222Z" fill="url(#choodies-sh)"/><path d="M300 190C330 176 352 168 366 168H434C448 168 470 176 500 190L568 222L648 524L588 540L548 372V654Q400 682 252 654V372L212 540L152 524L232 222Z" fill="url(#choodies-sv)"/>
+  <path d="M336 168C344 232 456 232 464 168C446 150 354 150 336 168z" fill="#1d3327"/>
+  <path d="M318 176C338 262 462 262 482 176" fill="none" stroke="#1d3327" stroke-width="10" stroke-linecap="round"/>
+  <path d="M372 230L368 316M428 230L432 316" stroke="#f1ebe0" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="368" cy="320" r="5" fill="#f1ebe0"/><circle cx="432" cy="320" r="5" fill="#f1ebe0"/>
+  <path d="M290 534H510L540 640Q400 664 260 640Z" fill="#254232" stroke="#1d3327" stroke-width="3"/><path d="M290 534H510L540 640Q400 664 260 640Z" fill="url(#choodies-sv)"/>
+  <path d="M252 636Q400 664 548 636V656Q400 684 252 656Z" fill="#1d3327" opacity=".5"/>
+  <path d="M152 524L212 540M588 540L648 524" stroke="#1d3327" stroke-width="12"/>
+  <path d="M232 222L212 540M568 222L588 540" stroke="#1d3327" stroke-width="2" opacity=".5" fill="none"/>
+  <g transform='translate(296,236) scale(1.04)'><g>
+  <circle cx="100" cy="96" r="62" fill="#cd2e3a"/>
+  <g fill="#faf6ef" stroke="#f6efe4" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M70 66C52 40 70 22 92 18c-8 18-4 34 4 52z" opacity=".92"/>
+    <path d="M52 112C80 94 120 94 150 106C130 122 88 128 52 112z"/>
+    <path d="M92 104C76 62 104 30 142 24c-14 22-16 48-12 78z"/>
+    <path d="M52 112L28 130l32-10z"/>
+    <path d="M150 106c16-8 20-26 12-38" fill="none" stroke-width="5"/>
+    <circle cx="162" cy="66" r="5.5"/>
+    <path d="M166 64l16-3" fill="none"/>
+    <path d="M70 120L44 150M82 124L62 152" fill="none" stroke-width="2"/>
+  </g>
+  <path d="M20 168c20-10 36 8 56-2s34-6 52 0 40 10 60-2" fill="none" stroke="#f6efe4" stroke-width="3" stroke-linecap="round"/>
+  <path d="M30 182c18-8 30 6 48-2s30-4 46 0" fill="none" stroke="#f6efe4" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+</g></g>
+</g>
+</svg>

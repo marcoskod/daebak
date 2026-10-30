@@ -1,0 +1,14 @@
+{
+    "blog_templates": {
+        "classic": { "name": "클래식", "desc": "제목 아래 커버, 옆에 목차." },
+        "magazine": { "name": "매거진", "desc": "전체 너비 커버와 드롭캡." },
+        "sidebar-toc": { "name": "고정 목차", "desc": "읽는 동안 따라오는 목차." },
+        "centered-minimal": { "name": "미니멀", "desc": "커버 없는 좁은 중앙 컬럼." },
+        "hero-overlay": { "name": "오버레이 히어로", "desc": "커버 이미지 위에 제목." },
+        "split": { "name": "분할", "desc": "왼쪽 커버, 오른쪽 본문." },
+        "longform-numbered": { "name": "번호 섹션", "desc": "긴 글을 위한 큰 번호." },
+        "cards": { "name": "카드", "desc": "섹션마다 카드로 표시." },
+        "timeline": { "name": "타임라인", "desc": "세로선을 따라 이어지는 섹션." },
+        "gallery-showcase": { "name": "쇼케이스", "desc": "큰 커버와 연관 상품 강조." }
+    }
+}

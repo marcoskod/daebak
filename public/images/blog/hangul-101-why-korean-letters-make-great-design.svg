@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" preserveAspectRatio="xMidYMid slice"><defs><radialGradient id="g" cx="68%" cy="45%" r="70%"><stop offset="0" stop-color="#fffdf9"/><stop offset="1" stop-color="#f1e9df"/></radialGradient></defs><rect width="1200" height="630" fill="url(#g)"/><circle cx="820" cy="315" r="270" fill="#d9d2c9" opacity=".55"/><circle cx="160" cy="560" r="120" fill="#fed7ca" opacity=".6"/><circle cx="1090" cy="90" r="70" fill="#c8553d" opacity=".25"/><g transform="translate(590,25) scale(3)"><g font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif" text-anchor="middle">
+  <text x="100" y="108" font-size="92" font-weight="900" fill="#2a1d18" letter-spacing="-2">한글</text>
+  <rect x="48" y="122" width="104" height="5" rx="2.5" fill="#cd2e3a"/>
+  <text x="100" y="152" font-size="15" font-weight="700" letter-spacing="7" fill="#2a1d18">HANGEUL</text>
+  <path d="M100 176c-12-9-20-15-20-23a10 10 0 0 1 20-3 10 10 0 0 1 20 3c0 8-8 14-20 23z" fill="#cd2e3a" transform="translate(20,38) scale(.8)" opacity=".95"/>
+</g></g><g fill="none" stroke="#442a22" stroke-opacity=".12" stroke-width="2"><path d="M60 80h260M60 100h180M60 120h220"/></g></svg>

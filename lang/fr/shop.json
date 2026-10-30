@@ -1,0 +1,302 @@
+{
+    "home": {
+        "meta_title": "T-shirts, hoodies & art d'inspiration coréenne — imprimés à la demande",
+        "hero": {
+            "eyebrow": "Print on demand · Séoul × le monde",
+            "title": "Portez les plus beaux <em>motifs coréens</em>.",
+            "text": "T-shirts, hoodies, mugs et affiches ornés de hangeul, motifs de hanok et nuits de Séoul — fabriqués seulement après votre commande.",
+            "search": "Essayez « tigre », « hangeul », « mug »…",
+            "badge": "Fabriqué à la demande — zéro surstock",
+            "cta": "Voir la collection"
+        },
+        "categories": {
+            "title": "Par catégorie",
+            "sale": "Promos",
+            "sale_hint": "Limité",
+            "new": "Nouveautés",
+            "new_hint": "Ce mois-ci"
+        },
+        "trending": {
+            "eyebrow": "Tendances",
+            "title": "Les favoris de nos clients",
+            "text": "Les designs que tout le monde met au panier ce mois-ci."
+        },
+        "collections": {
+            "eyebrow": "Collections",
+            "title": "Explorez par univers",
+            "text": "Six univers, chacun ancré dans un pan de la culture coréenne."
+        },
+        "how": {
+            "eyebrow": "Comment ça marche",
+            "title": "Du clic à votre porte en 4 étapes",
+            "text": "Rien n'est imprimé avant votre commande : chaque pièce est fraîche et faite pour vous.",
+            "link": "Tous les détails",
+            "pick": {
+                "title": "Choisissez un design",
+                "text": "Choisissez produit, couleur et taille."
+            },
+            "design": {
+                "title": "Nous confirmons",
+                "text": "Votre commande part directement chez notre partenaire d'impression."
+            },
+            "print": {
+                "title": "Imprimé pour vous",
+                "text": "Fabriqué en 2 à 5 jours ouvrés près de chez vous."
+            },
+            "ship": {
+                "title": "Expédié chez vous",
+                "text": "Livraison suivie dans plus de 40 pays."
+            }
+        },
+        "stats": {
+            "products": "Designs en boutique",
+            "countries": "Pays livrés",
+            "reviews": "Avis clients",
+            "production": "Production moyenne"
+        },
+        "new": {
+            "eyebrow": "Tout juste sorti",
+            "title": "Nouveautés"
+        },
+        "studio": {
+            "eyebrow": "Studio sur-mesure",
+            "title": "Votre art, nos imprimeurs.",
+            "text": "Envoyez-nous votre illustration ou votre idée : nous la transformons en t-shirts, mugs, totes et affiches — sans minimum.",
+            "cta": "Lancer une commande",
+            "cta2": "Devenir créateur"
+        },
+        "reviews": {
+            "eyebrow": "Adoré partout",
+            "title": "Ce que disent nos clients"
+        },
+        "newsletter": {
+            "title": "-10 % sur votre première commande",
+            "text": "Nouveautés, histoires de créateurs et un code de bienvenue. Jamais de spam.",
+            "placeholder": "Votre e-mail",
+            "button": "S'inscrire",
+            "thanks": "Bienvenue ! Surveillez votre boîte mail."
+        }
+    },
+    "collections": {
+        "title": "Collections",
+        "subtitle": "Six univers inspirés de la culture coréenne.",
+        "by_type": "Par type de produit",
+        "by_type_text": "Trouvez ce que vous voulez porter, boire ou accrocher.",
+        "hangul": {
+            "tag": "Typographie",
+            "title": "Hangul & Mots",
+            "text": "Amour, chance et apprentissage dans le bel alphabet coréen."
+        },
+        "palace": {
+            "tag": "Patrimoine",
+            "title": "Palais & Hanok",
+            "text": "Couleurs dancheong, fenêtres à treillis et paravents royaux."
+        },
+        "folk": {
+            "tag": "Art populaire",
+            "title": "Minhwa & Légendes",
+            "text": "Tigres, grues, gardiens et gobelins espiègles."
+        },
+        "seoul": {
+            "tag": "Urbain",
+            "title": "Séoul la nuit",
+            "text": "Rues néon, skyline de Namsan et couchers de soleil sur la Han."
+        },
+        "kawaii": {
+            "tag": "Mignon",
+            "title": "Club Snack",
+            "text": "Amis kimchi, lait à la banane et autres gourmandises."
+        },
+        "blossom": {
+            "tag": "Nature",
+            "title": "Saison des fleurs",
+            "text": "Prunier, cerisier, mugunghwa et soleil de Jeju."
+        }
+    },
+    "shop": {
+        "title": "Toute la boutique",
+        "subtitle": "Chaque design est imprimé à la demande après votre commande.",
+        "results": "résultats",
+        "sort": "Trier par",
+        "sort_popular": "Les plus populaires",
+        "sort_newest": "Nouveautés",
+        "sort_rating": "Mieux notés",
+        "sort_price_asc": "Prix croissant",
+        "sort_price_desc": "Prix décroissant",
+        "apply": "Appliquer",
+        "all": "Tout",
+        "items_count": ":n articles",
+        "no_results_title": "Aucun résultat",
+        "no_results_text": "Essayez un autre mot-clé ou retirez les filtres.",
+        "reset_filters": "Réinitialiser"
+    },
+    "product": {
+        "badge": {
+            "bestseller": "Best-seller",
+            "new": "Nouveau",
+            "limited": "Édition limitée",
+            "sale": "Promo"
+        },
+        "add_wishlist": "Ajouter aux favoris",
+        "choose_options": "Choisir les options",
+        "add_to_cart": "Ajouter au panier",
+        "colors": "Coloris disponibles",
+        "ships_in": "Fabriqué en :a–:b jours",
+        "from": "Dès",
+        "view_image": "Voir l'image :n",
+        "description": "À propos de ce design",
+        "template": "Mise en page",
+        "reviews": "Avis",
+        "reviews_count": ":n avis",
+        "verified": "Achat vérifié",
+        "sample_reviews": "Avis de démonstration affichés à titre d'exemple.",
+        "fulfilled_by": "Fabriqué par :name",
+        "share": "Partager",
+        "charged_usd": "Vous serez débité de :amount (USD).",
+        "color": "Coloris",
+        "size": "Taille",
+        "size_guide": "Guide des tailles",
+        "buy_now": "Acheter maintenant",
+        "delivery_estimate": "Estimation de livraison",
+        "eta_production": "Production",
+        "eta_shipping": "Livraison",
+        "eta_total": "Total",
+        "shipping_cost": "Livraison",
+        "free_over": "offerte dès :amount",
+        "trust_pod": "Imprimé à la demande",
+        "trust_eco": "Moins de gaspillage",
+        "trust_secure": "Paiement sécurisé",
+        "trust_returns": "Réimpression offerte si défaut",
+        "related": "Vous aimerez aussi"
+    },
+    "cart": {
+        "title": "Votre panier",
+        "subtitle": "Vérifiez vos designs avant de payer.",
+        "empty_title": "Votre panier est vide",
+        "empty_text": "Découvrez des designs qui vous plairont.",
+        "continue": "Continuer mes achats",
+        "remove": "Retirer",
+        "quantity": "Quantité",
+        "summary": "Récapitulatif",
+        "free_left": "Plus que :amount pour la livraison offerte",
+        "free_reached": "Livraison offerte débloquée !",
+        "subtotal": "Sous-total",
+        "shipping": "Livraison",
+        "calculated_at_checkout": "Calculée au paiement",
+        "total": "Total",
+        "checkout": "Passer la commande",
+        "out_of_stock": "Cet article est indisponible pour le moment.",
+        "added": ":name ajouté au panier."
+    },
+    "checkout": {
+        "title": "Finaliser la commande",
+        "subtitle": "Presque fini — quelques informations et c'est parti.",
+        "secure": "Paiement sécurisé",
+        "contact": "Coordonnées",
+        "name": "Nom complet",
+        "email": "E-mail",
+        "phone": "Téléphone (facultatif)",
+        "shipping": "Adresse de livraison",
+        "country": "Pays",
+        "address": "Adresse",
+        "city": "Ville",
+        "postal": "Code postal",
+        "notes": "Instructions (facultatif)",
+        "payment": "Paiement",
+        "pay": {
+            "card": "Carte bancaire",
+            "card_hint": "Visa, Mastercard, Amex, Apple Pay, Google Pay",
+            "paypal": "PayPal",
+            "paypal_hint": "Payez avec votre solde ou compte PayPal"
+        },
+        "no_payment": "Aucun moyen de paiement n'est disponible. Merci de nous contacter.",
+        "demo_notice": "Mode démo : aucun paiement réel, aucune donnée bancaire demandée.",
+        "accept": "J'accepte les :terms.",
+        "charged_usd": "Prix affichés dans votre devise à titre indicatif ; vous êtes débité en USD.",
+        "pay_now": "Valider la commande"
+    },
+    "order": {
+        "status": {
+            "pending": "Commande reçue",
+            "processing": "En production",
+            "shipped": "Expédiée",
+            "delivered": "Livrée",
+            "cancelled": "Annulée"
+        },
+        "payment": {
+            "pending": "En attente de paiement",
+            "paid": "Payée",
+            "failed": "Échec"
+        }
+    },
+    "confirm": {
+        "title": "Commande confirmée",
+        "subtitle": "Merci de soutenir le design d'inspiration coréenne.",
+        "thanks": "Merci, :name !",
+        "number": "Numéro de commande",
+        "email_sent": "confirmation envoyée à :email",
+        "item": "Article",
+        "details": "Détails",
+        "status": "Statut du paiement"
+    },
+    "tracking": {
+        "title": "Suivre ma commande",
+        "subtitle": "Saisissez votre numéro de commande et votre e-mail.",
+        "not_found": "Aucune commande trouvée avec ces informations.",
+        "another": "Suivre une autre commande",
+        "number": "Numéro de commande",
+        "button": "Suivre"
+    },
+    "demo": {
+        "title": "Paiement (démo)",
+        "subtitle": "Page de paiement simulée",
+        "badge": "Mode démo",
+        "order": "Commande",
+        "text": "Ceci est une simulation. Cliquez ci-dessous pour marquer la commande comme payée — aucune carte n'est débitée.",
+        "confirm": "Simuler un paiement réussi",
+        "cancel": "Annuler"
+    },
+    "wishlist": {
+        "title": "Vos favoris",
+        "subtitle": "Enregistrés sur cet appareil.",
+        "empty_title": "Aucun favori pour l'instant",
+        "empty_text": "Touchez le cœur sur un design pour le garder ici."
+    },
+    "size_guide": {
+        "title": "Guide des tailles",
+        "text": "Coupes unisexes. Mesurez un t-shirt que vous aimez et comparez.",
+        "size": "Taille",
+        "chest": "Poitrine",
+        "length": "Longueur",
+        "tip": "Entre deux tailles ? Prenez la taille au-dessus pour un look ample, en dessous pour plus ajusté.",
+        "apparel": "T-shirts & hoodies",
+        "other_title": "Autres produits",
+        "dimensions": "Dimensions",
+        "other": [
+            {
+                "product": "Mug",
+                "dims": "11 oz — 9,4 cm de haut × 8,1 cm de large"
+            },
+            {
+                "product": "Gourde",
+                "dims": "20 oz — 21 cm de haut"
+            },
+            {
+                "product": "Affiche / Toile",
+                "dims": "30×40, 45×60, 60×90 cm"
+            },
+            {
+                "product": "Tote bag",
+                "dims": "38 × 41 cm"
+            },
+            {
+                "product": "Tapis de bureau",
+                "dims": "80 × 40 cm"
+            },
+            {
+                "product": "Coussin",
+                "dims": "45 × 45 cm"
+            }
+        ]
+    }
+}

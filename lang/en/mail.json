@@ -1,0 +1,22 @@
+{
+    "mail": {
+        "hello": "Hello :name,",
+        "order_subject": "Order confirmed — :brand #:number",
+        "order_thanks": "Thank you for your order :number at :brand!",
+        "order_total": "Total",
+        "order_paid": "Your payment was received.",
+        "order_next": "Your items are now being made on demand. We will email you a tracking link when they ship.",
+        "order_ship_to": "Shipping to",
+        "order_track": "Track your order",
+        "signoff": "See you soon,",
+        "team": "The :brand team",
+        "admin_order_subject": "New order :number — :total",
+        "admin_order_title": "New order received",
+        "customer": "Customer",
+        "provider": "Provider",
+        "contact_subject": "We received your message — :brand",
+        "contact_thanks": "Thanks for contacting us. We will reply within one business day.",
+        "contact_copy": "Your message:",
+        "admin_contact_subject": "New message: :subject"
+    }
+}

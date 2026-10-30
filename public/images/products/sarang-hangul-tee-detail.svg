@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800"><defs><pattern id="w0" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 0L6 6M6 0L0 6" stroke="#000" stroke-opacity=".05" stroke-width="1"/></pattern><radialGradient id="v0" cx="50%" cy="50%" r="75%"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></radialGradient></defs><rect width="800" height="800" fill="#f4efe9"/><rect width="800" height="800" fill="url(#w0)"/><g transform="translate(60,60) scale(3.7)"><g font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif" text-anchor="middle">
+  <text x="100" y="108" font-size="92" font-weight="900" fill="#2a1d18" letter-spacing="-2">사랑</text>
+  <rect x="48" y="122" width="104" height="5" rx="2.5" fill="#cd2e3a"/>
+  <text x="100" y="152" font-size="15" font-weight="700" letter-spacing="7" fill="#2a1d18">SARANG</text>
+  <path d="M100 176c-12-9-20-15-20-23a10 10 0 0 1 20-3 10 10 0 0 1 20 3c0 8-8 14-20 23z" fill="#cd2e3a" transform="translate(20,38) scale(.8)" opacity=".95"/>
+</g></g><rect width="800" height="800" fill="url(#v0)"/></svg>

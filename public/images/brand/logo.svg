@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Daebak">
+  <rect width="96" height="96" rx="26" fill="#442a22"/>
+  <path d="M30 22h19c17 0 29 11 29 26S66 74 49 74H30z" fill="none" stroke="#faf9f7" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M30 22v52" stroke="#faf9f7" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="62" cy="48" r="7" fill="#c8553d"/>
+  <path d="M71 18l2.2 5.8L79 26l-5.8 2.2L71 34l-2.2-5.8L63 26l5.8-2.2z" fill="#fed7ca"/>
+</svg>

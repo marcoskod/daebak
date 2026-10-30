@@ -1,0 +1,22 @@
+{
+    "mail": {
+        "hello": ":name님, 안녕하세요,",
+        "order_subject": "주문 확인 — :brand #:number",
+        "order_thanks": ":brand 주문 :number 감사합니다!",
+        "order_total": "합계",
+        "order_paid": "결제가 확인되었습니다.",
+        "order_next": "상품을 주문 제작 중입니다. 발송되면 추적 링크를 메일로 보내드릴게요.",
+        "order_ship_to": "배송지",
+        "order_track": "주문 조회",
+        "signoff": "감사합니다,",
+        "team": ":brand 팀",
+        "admin_order_subject": "신규 주문 :number — :total",
+        "admin_order_title": "새 주문이 접수되었습니다",
+        "customer": "고객",
+        "provider": "제작처",
+        "contact_subject": "문의가 접수되었습니다 — :brand",
+        "contact_thanks": "문의해 주셔서 감사합니다. 영업일 하루 내 답변드릴게요.",
+        "contact_copy": "보내주신 내용:",
+        "admin_contact_subject": "새 문의: :subject"
+    }
+}

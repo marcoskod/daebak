@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img">
+  <defs>
+    <radialGradient id="p90-bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#e6ecf3"/><stop offset="1" stop-color="#d4d9e0"/></radialGradient>
+    <filter id="p90-blur" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="12"/></filter>
+    <linearGradient id="p90-sh" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset=".28" stop-color="#fff" stop-opacity=".12"/><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".26"/></linearGradient>
+    <linearGradient id="p90-sv" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#p90-bg)"/>
+  <circle cx="650" cy="150" r="170" fill="#fff" opacity=".22"/><circle cx="120" cy="690" r="120" fill="#fff" opacity=".16"/>
+  
+  <g>
+  <rect x="190" y="110" width="420" height="580" fill="#000" opacity=".12" transform="translate(14,18)" filter="url(#p90-blur)"/>
+  <rect x="190" y="110" width="420" height="580" fill="#2a1d18"/>
+  <rect x="190" y="110" width="420" height="580" fill="url(#p90-sh)"/>
+  <rect x="214" y="134" width="372" height="532" fill="#fbf8f2"/>
+  <rect x="214" y="134" width="372" height="532" fill="none" stroke="#000" stroke-opacity=".12" stroke-width="2"/>
+  <svg x="236" y="156" width="328" height="388" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid slice"><g><g>
+  <rect x="0" y="0" width="200" height="200" rx="8" fill="#16335c"/>
+  <circle cx="54" cy="40" r="20" fill="#cd2e3a"/><circle cx="146" cy="40" r="17" fill="#faf6ef"/>
+  <path d='M50 150L100 50L150 150z' fill='#2f7d5b' stroke='#2a1d18' stroke-width='2' stroke-linejoin='round'/><path d='M4 150L48 78L92 150z' fill='#1f6b8a' stroke='#2a1d18' stroke-width='2' stroke-linejoin='round'/><path d='M108 150L152 78L196 150z' fill='#1f6b8a' stroke='#2a1d18' stroke-width='2' stroke-linejoin='round'/><path d='M-14 150L20 104L54 150z' fill='#2f7d5b' stroke='#2a1d18' stroke-width='2' stroke-linejoin='round'/><path d='M148 150L182 104L216 150z' fill='#2f7d5b' stroke='#2a1d18' stroke-width='2' stroke-linejoin='round'/>
+  <rect x="0" y="150" width="200" height="50" fill="#1c4a78"/><path d='M0 150q12 -9 25 0t25 0 25 0 25 0 25 0 25 0 25 0 25 0' fill='none' stroke='#cfe3ee' stroke-width='2.2' opacity='0.9'/><path d='M0 161q12 -9 25 0t25 0 25 0 25 0 25 0 25 0 25 0 25 0' fill='none' stroke='#cfe3ee' stroke-width='2.2' opacity='0.75'/><path d='M0 172q12 -9 25 0t25 0 25 0 25 0 25 0 25 0 25 0 25 0' fill='none' stroke='#cfe3ee' stroke-width='2.2' opacity='0.6'/><path d='M0 183q12 -9 25 0t25 0 25 0 25 0 25 0 25 0 25 0 25 0' fill='none' stroke='#cfe3ee' stroke-width='2.2' opacity='0.45'/>
+  <g fill="#e9d9a8"><circle cx="30" cy="20" r="1.4"/><circle cx="92" cy="14" r="1.4"/><circle cx="178" cy="16" r="1.4"/></g>
+</g></g></svg>
+  <rect x="300" y="580" width="200" height="6" rx="3" fill="#2a1d18" opacity=".8"/><rect x="340" y="602" width="120" height="4" rx="2" fill="#2a1d18" opacity=".35"/>
+</g>
+</svg>

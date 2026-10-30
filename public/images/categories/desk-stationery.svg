@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img">
+  <defs>
+    <radialGradient id="cdesk-stationery-bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#e9e4f0"/><stop offset="1" stop-color="#d6d2dd"/></radialGradient>
+    <filter id="cdesk-stationery-blur" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="12"/></filter>
+    <linearGradient id="cdesk-stationery-sh" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset=".28" stop-color="#fff" stop-opacity=".12"/><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".26"/></linearGradient>
+    <linearGradient id="cdesk-stationery-sv" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#cdesk-stationery-bg)"/>
+  <circle cx="650" cy="150" r="170" fill="#fff" opacity=".22"/><circle cx="120" cy="690" r="120" fill="#fff" opacity=".16"/>
+  <ellipse cx="400" cy="722" rx="250" ry="22" fill="#000" opacity=".16" filter="url(#cdesk-stationery-blur)"/>
+  <g>
+  <rect x="70" y="210" width="680" height="380" rx="34" fill="#000" opacity=".14" transform="translate(12,18)" filter="url(#cdesk-stationery-blur)"/>
+  <rect x="70" y="210" width="660" height="380" rx="34" fill="#1c1b1a"/>
+  <svg x="84" y="224" width="632" height="352" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid slice" overflow="hidden"><g><g font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif" text-anchor="middle">
+  <defs><filter id="neon-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect x="6" y="14" width="188" height="172" rx="22" fill="#14102b"/>
+  <g filter="url(#neon-glow)" fill="none" stroke-linecap="round">
+    <rect x="18" y="26" width="164" height="148" rx="16" stroke="#4fe7ff" stroke-width="4"/>
+    <path d="M100 38v26M96 64h8M99 64l-2 14h6l-2-14M100 78v18" stroke="#ff5fa8" stroke-width="3"/>
+    <text x="100" y="128" font-size="38" font-weight="800" fill="none" stroke="#ff5fa8" stroke-width="3" letter-spacing="3">SEOUL</text>
+    <text x="100" y="158" font-size="22" font-weight="800" fill="none" stroke="#4fe7ff" stroke-width="2.4" letter-spacing="6">서울</text>
+  </g>
+  <text x="100" y="128" font-size="38" font-weight="800" fill="#ffd7ea" letter-spacing="3" opacity=".9">SEOUL</text>
+  <text x="100" y="158" font-size="22" font-weight="800" fill="#d4f8ff" letter-spacing="6" opacity=".9">서울</text>
+</g></g></svg>
+  <rect x="70" y="210" width="660" height="380" rx="34" fill="url(#cdesk-stationery-sv)"/>
+  <rect x="78" y="218" width="644" height="364" rx="28" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="3" stroke-dasharray="9 7"/>
+</g>
+</svg>

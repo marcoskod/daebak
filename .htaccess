@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Be.Bright — .htaccess de la RACINE du projet
+#
+# À quoi ça sert : sur un hébergement mutualisé où le domaine pointe sur la racine du
+# projet (ex. public_html/) et non sur le dossier public/, ce fichier envoie toutes les
+# requêtes vers public/ (là où se trouve le vrai index.php de Laravel), et empêche
+# l'accès direct aux dossiers/fichiers sensibles (.env, vendor, app, etc.).
+#
+# Solution idéale : faire pointer le domaine (« racine du document ») directement sur le
+# dossier public/ depuis le panneau de l'hébergeur. Dans ce cas, ce fichier est inutile.
+# ─────────────────────────────────────────────────────────────────────────────
+
+Options -Indexes
+DirectoryIndex index.php
+
+# Interdit l'accès à tout fichier caché (.env, .git, .gitignore...) sauf /.well-known (SSL)
+<IfModule mod_authz_core.c>
+    <FilesMatch "^\.(?!well-known)">
+        Require all denied
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Fichiers de configuration / documentation jamais servis
+    RewriteRule ^(composer\.(json|lock)|artisan|phpunit\.xml|README\.md|DEPLOIEMENT\.md|KOD_CHANGELOG\.md)$ - [F,L,NC]
+
+    # Dossiers internes de l'application jamais servis directement
+    RewriteRule ^(app|bootstrap|config|database|resources|routes|tests|vendor)(/|$) - [F,L,NC]
+
+    # (Optionnel) Laisser passer un ancien dossier à côté de Laravel (ex. ancienne boutique) :
+    # RewriteCond %{REQUEST_URI} !^/(store|be_bright_api)(/|$)
+
+    # Tout le reste est envoyé vers public/
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

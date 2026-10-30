@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800"><defs><radialGradient id="a17" cx="50%" cy="40%" r="70%"><stop offset="0" stop-color="#fffdf9"/><stop offset="1" stop-color="#e3dbe6"/></radialGradient></defs><rect width="800" height="800" fill="url(#a17)"/><circle cx="400" cy="400" r="300" fill="#d4cdd8" opacity=".55"/><g transform="translate(100,100) scale(3)"><g stroke-linecap="round" stroke-linejoin="round" font-family="'Noto Sans KR','Malgun Gothic',sans-serif" text-anchor="middle">
+  <circle cx="100" cy="100" r="86" fill="#f2b632" opacity=".28"/>
+  <path d="M130 22l4-14" stroke="#2a1d18" stroke-width="4"/>
+  <path d="M60 56h80l-6 120H66z" fill="#fff3b0" stroke="#2a1d18" stroke-width="3.5"/>
+  <path d="M56 44h88v14H56z" fill="#f2b632" stroke="#2a1d18" stroke-width="3.5"/>
+  <path d="M68 100h64l-2 36H70z" fill="#fff" opacity=".55"/>
+  <circle cx="86" cy="110" r="3.4" fill="#2a1d18"/><circle cx="114" cy="110" r="3.4" fill="#2a1d18"/><ellipse cx="78" cy="120" rx="5" ry="3" fill="#f08aa4"/><ellipse cx="122" cy="120" rx="5" ry="3" fill="#f08aa4"/>
+  <path d="M94 118q6 7 12 0" fill="none" stroke="#2a1d18" stroke-width="3"/>
+  <text x="100" y="84" font-size="18" font-weight="900" fill="#2a1d18">바나나</text>
+  <text x="100" y="158" font-size="14" font-weight="900" fill="#2a1d18" letter-spacing="1">우유 MILK</text>
+  <path d="M78 70c8-9 24-9 34 0" fill="none" stroke="#2a1d18" stroke-width="2.5"/>
+</g></g></svg>

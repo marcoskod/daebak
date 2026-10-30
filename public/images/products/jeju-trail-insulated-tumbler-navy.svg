@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img">
+  <defs>
+    <radialGradient id="p282-bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#f3ecd9"/><stop offset="1" stop-color="#e0d9c8"/></radialGradient>
+    <filter id="p282-blur" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="12"/></filter>
+    <linearGradient id="p282-sh" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset=".28" stop-color="#fff" stop-opacity=".12"/><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".26"/></linearGradient>
+    <linearGradient id="p282-sv" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#p282-bg)"/>
+  <circle cx="650" cy="150" r="170" fill="#fff" opacity=".22"/><circle cx="120" cy="690" r="120" fill="#fff" opacity=".16"/>
+  <ellipse cx="400" cy="722" rx="250" ry="22" fill="#000" opacity=".16" filter="url(#p282-blur)"/>
+  <g>
+  <path d="M476 120L500 56" stroke="#2a2220" stroke-width="14" stroke-linecap="round"/>
+  <path d="M296 196H504L482 660Q480 690 450 690H350Q320 690 318 660Z" fill="#1f2f4d"/><path d="M296 196H504L482 660Q480 690 450 690H350Q320 690 318 660Z" fill="url(#p282-sh)"/>
+  <rect x="284" y="150" width="232" height="58" rx="22" fill="#2a2220"/><rect x="296" y="160" width="208" height="10" rx="5" fill="#fff" opacity=".18"/>
+  <path d="M340 230L352 650" stroke="#fff" stroke-opacity=".35" stroke-width="10" stroke-linecap="round"/>
+  <rect x="330" y="684" width="140" height="14" rx="7" fill="#19263e"/>
+  <g transform='translate(322,258) scale(0.78)'><g stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="100" cy="110" r="64" fill="#e8892b" stroke="#f6efe4" stroke-width="3"/>
+  <ellipse cx="78" cy="84" rx="18" ry="10" fill="#fff" opacity=".35" transform="rotate(-30 78 84)"/>
+  <circle cx='118' cy='108' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='116.8' cy='130.8' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='91.8' cy='99.8' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='59.3' cy='70' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='51.6' cy='114.9' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='96.2' cy='126.4' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='117.1' cy='85.6' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='136' cy='82.7' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='127.4' cy='120' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='86.8' cy='117.1' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='83.6' cy='77.2' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='76' cy='101.9' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='93' cy='122' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='129.1' cy='105.5' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='154' cy='76.9' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='110.7' cy='122.7' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='93' cy='120.3' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='67' cy='94.5' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='60.3' cy='84.7' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='90.4' cy='139.7' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='111.9' cy='115.4' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='127' cy='87.1' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='120.9' cy='98.6' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='87.6' cy='148.4' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='50.1' cy='108.6' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='84.3' cy='85.1' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='95.6' cy='114.9' r='1.6' fill='#c96a12' opacity='.5'/><circle cx='124.2' cy='146.6' r='1.6' fill='#c96a12' opacity='.5'/>
+  <path d="M100 50c0-14 6-22 14-26" fill="none" stroke="#f6efe4" stroke-width="4"/>
+  <path d="M104 48c14-20 40-18 50-8-12 14-36 20-50 8z" fill="#2f7d5b" stroke="#f6efe4" stroke-width="3"/><path d="M110 46c12-6 24-8 36-4" fill="none" stroke="#f6efe4" stroke-width="1.6" opacity=".6"/>
+  <circle cx="80" cy="112" r="5" fill="#f6efe4"/><circle cx="120" cy="112" r="5" fill="#f6efe4"/>
+  <ellipse cx="68" cy="126" rx="8" ry="5" fill="#f08aa4" opacity=".8"/><ellipse cx="132" cy="126" rx="8" ry="5" fill="#f08aa4" opacity=".8"/>
+  <path d="M90 124q10 12 20 0" fill="none" stroke="#f6efe4" stroke-width="3.5"/>
+  <text x="100" y="196" font-size="15" font-weight="900" text-anchor="middle" letter-spacing="5" fill="#f6efe4" font-family="'Noto Sans KR','Malgun Gothic',sans-serif">감귤 · JEJU</text>
+</g></g>
+</g>
+</svg>

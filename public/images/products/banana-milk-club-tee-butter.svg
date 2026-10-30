@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img">
+  <defs>
+    <radialGradient id="p171-bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#ece4f0"/><stop offset="1" stop-color="#d9d2dd"/></radialGradient>
+    <filter id="p171-blur" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="12"/></filter>
+    <linearGradient id="p171-sh" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset=".28" stop-color="#fff" stop-opacity=".12"/><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".26"/></linearGradient>
+    <linearGradient id="p171-sv" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#p171-bg)"/>
+  <circle cx="650" cy="150" r="170" fill="#fff" opacity=".22"/><circle cx="120" cy="690" r="120" fill="#fff" opacity=".16"/>
+  <ellipse cx="400" cy="722" rx="250" ry="22" fill="#000" opacity=".16" filter="url(#p171-blur)"/>
+  <g>
+  <path d="M268 150L345 118Q400 186 455 118L532 150L648 252L580 334L536 296V646Q400 668 264 646V296L220 334L152 252Z" fill="#f2dc8c"/>
+  <path d="M268 150L345 118Q400 186 455 118L532 150L648 252L580 334L536 296V646Q400 668 264 646V296L220 334L152 252Z" fill="url(#p171-sh)"/><path d="M268 150L345 118Q400 186 455 118L532 150L648 252L580 334L536 296V646Q400 668 264 646V296L220 334L152 252Z" fill="url(#p171-sv)"/>
+  <path d="M345 118Q400 186 455 118Q400 160 345 118z" fill="#c6b473"/>
+  <path d="M350 126Q400 182 450 126" fill="none" stroke="#c6b473" stroke-width="9" stroke-linecap="round"/>
+  <path d="M268 150L220 334M532 150L580 334" stroke="#c6b473" stroke-width="2" opacity=".55" fill="none"/>
+  <path d="M264 628Q400 650 536 628" fill="none" stroke="#c6b473" stroke-width="2" opacity=".6"/>
+  <path d="M300 450c20 40 10 120 4 170M510 410c-18 50-6 150 4 214" stroke="#000" stroke-opacity=".06" stroke-width="14" fill="none"/>
+  <g transform='translate(276,200) scale(1.24)'><g stroke-linecap="round" stroke-linejoin="round" font-family="'Noto Sans KR','Malgun Gothic',sans-serif" text-anchor="middle">
+  <circle cx="100" cy="100" r="86" fill="#f2b632" opacity=".28"/>
+  <path d="M130 22l4-14" stroke="#2a1d18" stroke-width="4"/>
+  <path d="M60 56h80l-6 120H66z" fill="#fff3b0" stroke="#2a1d18" stroke-width="3.5"/>
+  <path d="M56 44h88v14H56z" fill="#f2b632" stroke="#2a1d18" stroke-width="3.5"/>
+  <path d="M68 100h64l-2 36H70z" fill="#fff" opacity=".55"/>
+  <circle cx="86" cy="110" r="3.4" fill="#2a1d18"/><circle cx="114" cy="110" r="3.4" fill="#2a1d18"/><ellipse cx="78" cy="120" rx="5" ry="3" fill="#f08aa4"/><ellipse cx="122" cy="120" rx="5" ry="3" fill="#f08aa4"/>
+  <path d="M94 118q6 7 12 0" fill="none" stroke="#2a1d18" stroke-width="3"/>
+  <text x="100" y="84" font-size="18" font-weight="900" fill="#2a1d18">바나나</text>
+  <text x="100" y="158" font-size="14" font-weight="900" fill="#2a1d18" letter-spacing="1">우유 MILK</text>
+  <path d="M78 70c8-9 24-9 34 0" fill="none" stroke="#2a1d18" stroke-width="2.5"/>
+</g></g>
+</g>
+</svg>

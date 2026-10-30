@@ -1,0 +1,25 @@
+/* Miniatures de catégories — prolongement de .cat-strip / .cat-tab / .chip (daebak.css). Tout est optionnel : sans image, rendu d'origine (icône). */
+.truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+
+/* Bandeau d'accueil : la vignette remplace l'icône */
+.cat-tab { max-width: 150px; }
+.cat-tab .truncate { max-width: 100%; }
+.cat-tab.has-thumb { min-width: 108px; padding: 10px 14px 12px; }
+.cat-tab .cat-thumb { width: 56px; height: 56px; border-radius: var(--r-sm); object-fit: cover; background: var(--blush); box-shadow: var(--shadow-sm, 0 2px 8px rgba(68, 42, 34, .12)); transition: transform .25s; }
+.cat-tab:hover .cat-thumb { transform: scale(1.06); }
+.cat-tab.is-active .cat-thumb { outline: 2px solid var(--brand); outline-offset: 2px; }
+
+/* Puces du catalogue */
+.chip { max-width: 100%; }
+.chip .chip-thumb { width: 22px; height: 22px; border-radius: 50%; object-fit: cover; flex: none; background: var(--blush); margin-left: -4px; }
+.chip .chip-thumb-sm { width: 18px; height: 18px; }
+.chip.is-active .chip-thumb { box-shadow: 0 0 0 1.5px currentColor; }
+
+/* Cards de la page collections (sans image) */
+.cat-card-ph { display: grid; place-items: center; width: 100%; aspect-ratio: 1; border-radius: var(--r); background: var(--blush); color: var(--brand); font-size: 44px; }
+
+@media (max-width: 480px) {
+    .cat-tab.has-thumb { min-width: 96px; }
+    .cat-tab .cat-thumb { width: 48px; height: 48px; }
+}
+@media (prefers-reduced-motion: reduce) { .cat-tab .cat-thumb { transition: none; } }

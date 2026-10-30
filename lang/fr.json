@@ -1,0 +1,22 @@
+{
+    "Reset Password Notification": "Réinitialisation de votre mot de passe",
+    "You are receiving this email because we received a password reset request for your account.": "Vous recevez cet email car nous avons reçu une demande de réinitialisation du mot de passe de votre compte.",
+    "Reset Password": "Réinitialiser le mot de passe",
+    "This password reset link will expire in :count minutes.": "Ce lien de réinitialisation expirera dans :count minutes.",
+    "If you did not request a password reset, no further action is required.": "Si vous n'êtes pas à l'origine de cette demande, aucune action n'est requise.",
+    "Verify Email Address": "Vérification de votre adresse email",
+    "Please click the button below to verify your email address.": "Merci de cliquer sur le bouton ci-dessous pour vérifier votre adresse email.",
+    "If you did not create an account, no further action is required.": "Si vous n'avez pas créé de compte, aucune action n'est requise.",
+    "Hello!": "Bonjour !",
+    "Regards,": "Cordialement,",
+    "Whoops!": "Oups !",
+    "If you're having trouble clicking the \":actionText\" button, copy and paste the URL below\ninto your web browser:": "Si vous avez des difficultés à cliquer sur le bouton « :actionText », copiez et collez l'URL ci-dessous\ndans votre navigateur :",
+    "All rights reserved.": "Tous droits réservés.",
+    "These credentials do not match our records.": "Ces identifiants ne correspondent pas à nos enregistrements.",
+    "Too Many Requests": "Trop de requêtes",
+    "Page Expired": "Page expirée",
+    "Not Found": "Introuvable",
+    "Forbidden": "Accès refusé",
+    "Server Error": "Erreur serveur",
+    "Service Unavailable": "Service indisponible"
+}

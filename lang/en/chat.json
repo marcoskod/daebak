@@ -1,0 +1,117 @@
+{
+    "chat": {
+        "open": "Open chat",
+        "title": "Customer support chat",
+        "close": "Close chat",
+        "sub_ai": "AI assistant · replies instantly",
+        "sub_human": "Our team · replies within a day",
+        "mode_ai": "AI assistant",
+        "mode_human": "Talk to a human",
+        "handoff_title": "Leave your details",
+        "handoff_text": "Our team will answer here in the chat and by email.",
+        "name": "Your name",
+        "email": "Your email",
+        "handoff_button": "Start chatting with the team",
+        "placeholder": "Type your message…",
+        "send": "Send",
+        "greeting": "Hi! I’m Dae 👋 Ask me about products, sizes, shipping or your order.",
+        "handoff_ok": "Thanks! You are now chatting with our team. We will reply as soon as possible — you can keep browsing.",
+        "quick": [
+            "Shipping times",
+            "Track my order",
+            "Size help",
+            "Custom design"
+        ],
+        "found": "Here is what I found for you:",
+        "fallback": "I’m not sure I understood. Try “shipping”, “returns”, “sizes”, or a product name — or switch to “Talk to a human”.",
+        "system_prompt": "You are :agent, the friendly support assistant of :brand, a print-on-demand store selling Korean-inspired apparel, mugs, wall art and accessories. Answer briefly (max 4 sentences) in the customer's language. Facts: items are printed after ordering (production 2-7 business days), shipping 2-14 days by country, free shipping above :threshold, defective items reprinted or refunded within 30 days, no returns for wrong size, payments by card/PayPal, order tracking at /track-order, custom designs at /studio. Recommend products from the catalog using their /produit/slug link. If you cannot help or the user wants a person, tell them to press \"Talk to a human\". Never invent policies, prices or stock.",
+        "intents": [
+            {
+                "keywords": [
+                    "ship",
+                    "deliver",
+                    "how long",
+                    "delay"
+                ],
+                "answer": "Production takes 2–7 business days, then shipping takes about 2–14 days depending on your country (South Korea 2–4, US 4–8, Europe 4–8). Free shipping above $75. See /shipping-returns"
+            },
+            {
+                "keywords": [
+                    "return",
+                    "refund",
+                    "exchange",
+                    "damaged"
+                ],
+                "answer": "Items are made for you, so we cannot accept returns for wrong size. If an item is defective or damaged, send your order number and a photo within 30 days and we will reprint or refund it. Details: /shipping-returns"
+            },
+            {
+                "keywords": [
+                    "track",
+                    "where is my order",
+                    "order status",
+                    "tracking"
+                ],
+                "answer": "You can follow your order at /track-order with your order number and email. You also receive a tracking link once it ships."
+            },
+            {
+                "keywords": [
+                    "size",
+                    "fit",
+                    "too big",
+                    "measure"
+                ],
+                "answer": "Our tees and hoodies are unisex and relaxed. Check the size chart at /size-guide — size down if you prefer a closer fit."
+            },
+            {
+                "keywords": [
+                    "pay",
+                    "card",
+                    "paypal",
+                    "apple pay"
+                ],
+                "answer": "We accept Visa, Mastercard, Amex, Apple Pay, Google Pay and PayPal. All payments are encrypted."
+            },
+            {
+                "keywords": [
+                    "custom",
+                    "my own design",
+                    "my artwork",
+                    "logo"
+                ],
+                "answer": "Yes! Send your artwork at /studio and we reply within 48 hours with mockups and a quote. No minimum order."
+            },
+            {
+                "keywords": [
+                    "discount",
+                    "promo",
+                    "coupon",
+                    "sale"
+                ],
+                "answer": "Subscribe to our newsletter at the bottom of the home page for 10% off your first order, and check the On sale tab for current deals."
+            },
+            {
+                "keywords": [
+                    "human",
+                    "agent",
+                    "real person",
+                    "support"
+                ],
+                "answer": "Of course — press “Talk to a human” above, leave your name and email, and our team will answer here."
+            },
+            {
+                "keywords": [
+                    "thank",
+                    "thanks"
+                ],
+                "answer": "You are welcome! Anything else I can help with?"
+            },
+            {
+                "keywords": [
+                    "hello",
+                    "hey"
+                ],
+                "answer": "Hello! 👋 Ask me about products, sizes, shipping or your order."
+            }
+        ]
+    }
+}
