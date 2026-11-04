@@ -15,14 +15,14 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // Compte administrateur de démonstration (à changer dès la mise en ligne).
-        User::updateOrCreate(['email' => 'admin@daebak.test'], [
+        User::updateOrCreate(['email' => env('SEED_ADMIN_EMAIL', 'admin@daebak.test')], [
             'name' => 'Daebak Admin',
-            'password' => Hash::make('daebak-admin-2026'),
+            'password' => Hash::make(env('SEED_ADMIN_PASSWORD', 'daebak-admin-2026')),
         ])->forceFill(['is_admin' => true, 'email_verified_at' => now()])->save();
 
-        User::updateOrCreate(['email' => 'demo@daebak.test'], [
+        User::updateOrCreate(['email' => env('SEED_CLIENT_EMAIL', 'demo@daebak.test')], [
             'name' => 'Demo Customer',
-            'password' => Hash::make('daebak-demo-2026'),
+            'password' => Hash::make(env('SEED_CLIENT_PASSWORD', 'daebak-demo-2026')),
         ])->forceFill(['email_verified_at' => now()])->save();
 
         Setting::set('payment_card_enabled', '1');
